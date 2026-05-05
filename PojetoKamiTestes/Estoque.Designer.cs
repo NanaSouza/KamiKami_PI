@@ -103,8 +103,9 @@
             this.btn_criarPedido.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_criarPedido.Image = ((System.Drawing.Image)(resources.GetObject("btn_criarPedido.Image")));
             this.btn_criarPedido.Name = "btn_criarPedido";
-            this.btn_criarPedido.Size = new System.Drawing.Size(201, 22);
+            this.btn_criarPedido.Size = new System.Drawing.Size(215, 36);
             this.btn_criarPedido.Text = "Criar Pedido";
+            this.btn_criarPedido.Click += new System.EventHandler(this.btn_criarPedido_Click);
             // 
             // btn_pedidoAndto
             // 
@@ -112,8 +113,9 @@
             this.btn_pedidoAndto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_pedidoAndto.Image = ((System.Drawing.Image)(resources.GetObject("btn_pedidoAndto.Image")));
             this.btn_pedidoAndto.Name = "btn_pedidoAndto";
-            this.btn_pedidoAndto.Size = new System.Drawing.Size(201, 22);
+            this.btn_pedidoAndto.Size = new System.Drawing.Size(215, 36);
             this.btn_pedidoAndto.Text = "Pedido em Andamento";
+            this.btn_pedidoAndto.Click += new System.EventHandler(this.btn_pedidoAndto_Click);
             // 
             // btn_financeiro
             // 
@@ -121,8 +123,9 @@
             this.btn_financeiro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_financeiro.Image = ((System.Drawing.Image)(resources.GetObject("btn_financeiro.Image")));
             this.btn_financeiro.Name = "btn_financeiro";
-            this.btn_financeiro.Size = new System.Drawing.Size(201, 22);
+            this.btn_financeiro.Size = new System.Drawing.Size(215, 36);
             this.btn_financeiro.Text = "Financeiro";
+            this.btn_financeiro.Click += new System.EventHandler(this.btn_financeiro_Click);
             // 
             // btn_estoque
             // 
@@ -130,8 +133,9 @@
             this.btn_estoque.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_estoque.Image = ((System.Drawing.Image)(resources.GetObject("btn_estoque.Image")));
             this.btn_estoque.Name = "btn_estoque";
-            this.btn_estoque.Size = new System.Drawing.Size(201, 22);
+            this.btn_estoque.Size = new System.Drawing.Size(215, 36);
             this.btn_estoque.Text = "Estoque";
+            this.btn_estoque.Click += new System.EventHandler(this.btn_estoque_Click);
             // 
             // uSUÁRIOToolStripMenuItem
             // 
@@ -170,6 +174,7 @@
             this.sAIRToolStripMenuItem.Name = "sAIRToolStripMenuItem";
             this.sAIRToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.sAIRToolStripMenuItem.Text = "SAIR";
+            this.sAIRToolStripMenuItem.Click += new System.EventHandler(this.sAIRToolStripMenuItem_Click);
             // 
             // tableLayoutPanel1
             // 

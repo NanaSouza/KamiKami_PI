@@ -43,14 +43,14 @@
             this.button5 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.lOJAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uSUÁRIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sAIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_criarPedido = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_pedidoAndto = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_financeiro = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_estoque = new System.Windows.Forms.ToolStripMenuItem();
-            this.uSUÁRIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_funcionarios = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_resetSenha = new System.Windows.Forms.ToolStripMenuItem();
-            this.sAIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Pedido1.SuspendLayout();
             this.Pedido2.SuspendLayout();
             this.Pedido3.SuspendLayout();
@@ -193,42 +193,6 @@
             this.lOJAToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.lOJAToolStripMenuItem.Text = "LOJA";
             // 
-            // btn_criarPedido
-            // 
-            this.btn_criarPedido.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btn_criarPedido.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_criarPedido.Image = ((System.Drawing.Image)(resources.GetObject("btn_criarPedido.Image")));
-            this.btn_criarPedido.Name = "btn_criarPedido";
-            this.btn_criarPedido.Size = new System.Drawing.Size(201, 22);
-            this.btn_criarPedido.Text = "Criar Pedido";
-            // 
-            // btn_pedidoAndto
-            // 
-            this.btn_pedidoAndto.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btn_pedidoAndto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_pedidoAndto.Image = ((System.Drawing.Image)(resources.GetObject("btn_pedidoAndto.Image")));
-            this.btn_pedidoAndto.Name = "btn_pedidoAndto";
-            this.btn_pedidoAndto.Size = new System.Drawing.Size(201, 22);
-            this.btn_pedidoAndto.Text = "Pedido em Andamento";
-            // 
-            // btn_financeiro
-            // 
-            this.btn_financeiro.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btn_financeiro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_financeiro.Image = ((System.Drawing.Image)(resources.GetObject("btn_financeiro.Image")));
-            this.btn_financeiro.Name = "btn_financeiro";
-            this.btn_financeiro.Size = new System.Drawing.Size(201, 22);
-            this.btn_financeiro.Text = "Financeiro";
-            // 
-            // btn_estoque
-            // 
-            this.btn_estoque.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btn_estoque.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_estoque.Image = ((System.Drawing.Image)(resources.GetObject("btn_estoque.Image")));
-            this.btn_estoque.Name = "btn_estoque";
-            this.btn_estoque.Size = new System.Drawing.Size(201, 22);
-            this.btn_estoque.Text = "Estoque";
-            // 
             // uSUÁRIOToolStripMenuItem
             // 
             this.uSUÁRIOToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -240,24 +204,6 @@
             this.uSUÁRIOToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.uSUÁRIOToolStripMenuItem.Text = "USUÁRIO";
             // 
-            // btn_funcionarios
-            // 
-            this.btn_funcionarios.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btn_funcionarios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_funcionarios.Image = ((System.Drawing.Image)(resources.GetObject("btn_funcionarios.Image")));
-            this.btn_funcionarios.Name = "btn_funcionarios";
-            this.btn_funcionarios.Size = new System.Drawing.Size(250, 22);
-            this.btn_funcionarios.Text = "Gerenciamento de Funcionários";
-            // 
-            // btn_resetSenha
-            // 
-            this.btn_resetSenha.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btn_resetSenha.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_resetSenha.Image = ((System.Drawing.Image)(resources.GetObject("btn_resetSenha.Image")));
-            this.btn_resetSenha.Name = "btn_resetSenha";
-            this.btn_resetSenha.Size = new System.Drawing.Size(250, 22);
-            this.btn_resetSenha.Text = "Reset de Senha";
-            // 
             // sAIRToolStripMenuItem
             // 
             this.sAIRToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -266,6 +212,66 @@
             this.sAIRToolStripMenuItem.Name = "sAIRToolStripMenuItem";
             this.sAIRToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.sAIRToolStripMenuItem.Text = "SAIR";
+            this.sAIRToolStripMenuItem.Click += new System.EventHandler(this.sAIRToolStripMenuItem_Click);
+            // 
+            // btn_criarPedido
+            // 
+            this.btn_criarPedido.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btn_criarPedido.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_criarPedido.Image = ((System.Drawing.Image)(resources.GetObject("btn_criarPedido.Image")));
+            this.btn_criarPedido.Name = "btn_criarPedido";
+            this.btn_criarPedido.Size = new System.Drawing.Size(215, 36);
+            this.btn_criarPedido.Text = "Criar Pedido";
+            this.btn_criarPedido.Click += new System.EventHandler(this.btn_criarPedido_Click);
+            // 
+            // btn_pedidoAndto
+            // 
+            this.btn_pedidoAndto.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btn_pedidoAndto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_pedidoAndto.Image = ((System.Drawing.Image)(resources.GetObject("btn_pedidoAndto.Image")));
+            this.btn_pedidoAndto.Name = "btn_pedidoAndto";
+            this.btn_pedidoAndto.Size = new System.Drawing.Size(215, 36);
+            this.btn_pedidoAndto.Text = "Pedido em Andamento";
+            this.btn_pedidoAndto.Click += new System.EventHandler(this.btn_pedidoAndto_Click);
+            // 
+            // btn_financeiro
+            // 
+            this.btn_financeiro.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btn_financeiro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_financeiro.Image = ((System.Drawing.Image)(resources.GetObject("btn_financeiro.Image")));
+            this.btn_financeiro.Name = "btn_financeiro";
+            this.btn_financeiro.Size = new System.Drawing.Size(215, 36);
+            this.btn_financeiro.Text = "Financeiro";
+            this.btn_financeiro.Click += new System.EventHandler(this.btn_financeiro_Click);
+            // 
+            // btn_estoque
+            // 
+            this.btn_estoque.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btn_estoque.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_estoque.Image = ((System.Drawing.Image)(resources.GetObject("btn_estoque.Image")));
+            this.btn_estoque.Name = "btn_estoque";
+            this.btn_estoque.Size = new System.Drawing.Size(215, 36);
+            this.btn_estoque.Text = "Estoque";
+            this.btn_estoque.Click += new System.EventHandler(this.btn_estoque_Click);
+            // 
+            // btn_funcionarios
+            // 
+            this.btn_funcionarios.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btn_funcionarios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_funcionarios.Image = ((System.Drawing.Image)(resources.GetObject("btn_funcionarios.Image")));
+            this.btn_funcionarios.Name = "btn_funcionarios";
+            this.btn_funcionarios.Size = new System.Drawing.Size(264, 36);
+            this.btn_funcionarios.Text = "Gerenciamento de Funcionários";
+            this.btn_funcionarios.Click += new System.EventHandler(this.btn_funcionarios_Click);
+            // 
+            // btn_resetSenha
+            // 
+            this.btn_resetSenha.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btn_resetSenha.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_resetSenha.Image = ((System.Drawing.Image)(resources.GetObject("btn_resetSenha.Image")));
+            this.btn_resetSenha.Name = "btn_resetSenha";
+            this.btn_resetSenha.Size = new System.Drawing.Size(264, 36);
+            this.btn_resetSenha.Text = "Reset de Senha";
             // 
             // Pedidoandamento
             // 

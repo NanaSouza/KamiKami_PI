@@ -205,5 +205,44 @@ namespace PojetoKamiTestes
                 dgv_produtos.Refresh();
             }
         }
+
+        private void btn_criarPedido_Click(object sender, EventArgs e)
+        {
+            {
+                CriarPedido tela = new CriarPedido();
+                tela.ShowDialog();
+            }
+        }
+
+        private void btn_pedidoAndto_Click(object sender, EventArgs e)
+        {
+            {
+                Pedidoandamento tela = new Pedidoandamento();
+                tela.ShowDialog();
+            }
+        }
+
+        private void btn_financeiro_Click(object sender, EventArgs e)
+        {
+            {
+                Financeiro tela = new Financeiro();
+                tela.ShowDialog();
+            }
+        }
+
+        private void btn_estoque_Click(object sender, EventArgs e)
+        {
+            {
+                Estoque tela = new Estoque();
+                tela.ShowDialog();
+            }
+        }
+
+        private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            {
+                Application.Exit();
+            }
+        }
     }
 }
