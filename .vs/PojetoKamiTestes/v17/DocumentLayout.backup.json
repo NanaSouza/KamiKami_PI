@@ -1,50 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\",
+  "WorkspaceRootPath": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\nana\\source\\repos\\projetocompleto\\pojetokamitestes\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\nana\\source\\repos\\projetocompleto\\pojetokamitestes\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\nana\\source\\repos\\projetocompleto\\pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\pedidofinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\pedidofinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\luciana.rgirao\\source\\repos\\projetocompleto\\pojetokamitestes\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\nana\\source\\repos\\projetocompleto\\pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\PedidoFinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,12 +65,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -67,6 +74,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -78,11 +89,62 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\UsuarioDAO.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\UsuarioDAO.cs",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\UsuarioDAO.cs",
+              "RelativeToolTip": "PojetoKamiTestes\\UsuarioDAO.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowD8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:45:22.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FrmTela1.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\FrmTela1.cs",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs",
+              "RelativeToolTip": "PojetoKamiTestes\\FrmTela1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:42:37.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmTela1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\FrmTela1.cs",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs [Design]",
+              "RelativeToolTip": "PojetoKamiTestes\\FrmTela1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T22:02:03.525Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Funcionarios.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Models\\Funcionarios.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\Models\\Funcionarios.cs",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Models\\Funcionarios.cs",
+              "RelativeToolTip": "PojetoKamiTestes\\Models\\Funcionarios.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwDsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:51:15.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Financeiro.cs",
-              "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\Financeiro.cs",
-              "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs",
               "RelativeToolTip": "PojetoKamiTestes\\Financeiro.cs",
               "ViewState": "AgIAAHsAAAAAAAAAAAArwJoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,24 +153,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Pedidoandamento.cs",
-              "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\Pedidoandamento.cs",
-              "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
               "RelativeToolTip": "PojetoKamiTestes\\Pedidoandamento.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAlwLAAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAIAwwLAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T00:45:20.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "CriarPedido.cs",
-              "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\CriarPedido.cs",
-              "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs",
               "RelativeToolTip": "PojetoKamiTestes\\CriarPedido.cs",
               "ViewState": "AgIAAJoAAAAAAAAAAAAvwOsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -117,11 +179,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "GerenFunc.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\GerenFunc.cs",
-              "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs [Design]",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs [Design]",
               "RelativeToolTip": "PojetoKamiTestes\\GerenFunc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T23:01:19.881Z",
@@ -129,11 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "GerenFunc.cs",
-              "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\GerenFunc.cs",
-              "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
               "RelativeToolTip": "PojetoKamiTestes\\GerenFunc.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAtwDwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -142,36 +204,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "PedidoFinanceiro.cs",
               "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\PedidoFinanceiro.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\PedidoFinanceiro.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\PedidoFinanceiro.cs",
               "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\PedidoFinanceiro.cs",
-              "RelativeToolTip": "PojetoKamiTestes\\PedidoFinanceiro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\PedidoFinanceiro.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T23:29:54.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T23:29:54.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmTela1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\FrmTela1.cs",
-              "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs [Design]",
-              "RelativeToolTip": "PojetoKamiTestes\\FrmTela1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T22:02:03.525Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "CriarPedido.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\CriarPedido.cs",
-              "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs [Design]",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs [Design]",
               "RelativeToolTip": "PojetoKamiTestes\\CriarPedido.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T22:02:26.776Z",
@@ -179,11 +227,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Pedidoandamento.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\Pedidoandamento.cs",
-              "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs [Design]",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs [Design]",
               "RelativeToolTip": "PojetoKamiTestes\\Pedidoandamento.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T22:04:25.927Z",
@@ -191,11 +239,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Financeiro.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\Financeiro.cs",
-              "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs [Design]",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs [Design]",
               "RelativeToolTip": "PojetoKamiTestes\\Financeiro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T22:12:57.325Z",
@@ -203,11 +251,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Estoque.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Estoque.cs",
+              "DocumentMoniker": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Estoque.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\Estoque.cs",
-              "ToolTip": "C:\\Users\\luciana.rgirao\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Estoque.cs [Design]",
+              "ToolTip": "C:\\Users\\Nana\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Estoque.cs [Design]",
               "RelativeToolTip": "PojetoKamiTestes\\Estoque.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T22:04:47.282Z",

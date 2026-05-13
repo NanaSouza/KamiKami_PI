@@ -175,7 +175,6 @@ namespace PojetoKamiTestes
             {
                 Estoque tela = new Estoque();
                 tela.ShowDialog();
-                Show.Close();
             }
         }
 

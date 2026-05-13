@@ -37,6 +37,8 @@
             this.txt_senha = new System.Windows.Forms.TextBox();
             this.btn_login = new System.Windows.Forms.Button();
             this.btn_novaSenha = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // sair
@@ -53,12 +55,12 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label1.Location = new System.Drawing.Point(401, 248);
+            this.label1.Location = new System.Drawing.Point(437, 255);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 27);
+            this.label1.Size = new System.Drawing.Size(54, 27);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Usuário:";
+            this.label1.Text = "CPF:";
             // 
             // label2
             // 
@@ -68,7 +70,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label2.Location = new System.Drawing.Point(415, 300);
+            this.label2.Location = new System.Drawing.Point(415, 303);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 27);
@@ -135,7 +137,7 @@
             this.btn_novaSenha.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_novaSenha.FlatAppearance.BorderSize = 0;
             this.btn_novaSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_novaSenha.Location = new System.Drawing.Point(512, 408);
+            this.btn_novaSenha.Location = new System.Drawing.Point(512, 405);
             this.btn_novaSenha.Margin = new System.Windows.Forms.Padding(4);
             this.btn_novaSenha.Name = "btn_novaSenha";
             this.btn_novaSenha.Size = new System.Drawing.Size(162, 26);
@@ -143,12 +145,32 @@
             this.btn_novaSenha.Text = "Esqueci a senha";
             this.btn_novaSenha.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(306, 172);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 16);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Bem-Vindo";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(306, 188);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(219, 16);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Acesse o sistema com seu CPF e Senha";
+            // 
             // Frm_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1183, 759);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_novaSenha);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.txt_senha);
@@ -164,6 +186,7 @@
             this.Name = "Frm_principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KAMI KAMI Yakissoba";
+            this.Load += new System.EventHandler(this.Frm_principal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,6 +200,8 @@
         private System.Windows.Forms.TextBox txt_senha;
         private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.Button btn_novaSenha;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 

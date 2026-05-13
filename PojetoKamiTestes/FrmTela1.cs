@@ -38,5 +38,10 @@ namespace PojetoKamiTestes
             GerenciamentoFuncionarios tela = new GerenciamentoFuncionarios();
             tela.ShowDialog();
         }
+
+        private void Frm_principal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
