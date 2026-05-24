@@ -13,13 +13,19 @@ namespace PojetoKamiTestes
 {
     public partial class GerenFunc : Form
     {
-        BindingList<Funcionarios> funcionarios = new BindingList<Funcionarios>(); //Puxa a Classe Funcionarios da Aba Funcionarios.cs!
+        public static BindingList<Funcionarios> funcionarios = new BindingList<Funcionarios>()
+        {    
+        new Funcionarios
+        {Nome = "Cara do Teste", ID = "171", CPF = "00000000000", Nascimento = "08/04/1994", Telefone = "11999999999", Senha = "boris123", Cargo = "Administrador"}
+        };
+        //Essa BingindList puxa a Classe Funcionarios da Aba Funcionarios.cs!
+        //Ela será removida e substituida pelo SQL? No sé! Perguntar pros profss.
+        //Cadastrei esse usuário aqui, só pra habilitarmos o botão da tela do login. Totalmente tirável!
 
         public GerenFunc()
         {
             InitializeComponent();
             this.Load += GerenFunc_Load;
-
             ConfigurarDGV();
         }
 
@@ -27,50 +33,46 @@ namespace PojetoKamiTestes
         {
             cmb_cargo.Items.Add("Administrador");
             cmb_cargo.Items.Add("Atendente");
-
             cmb_cargo.SelectedIndex = 0;
-        }             
+        }
          
-            
-            private void ConfigurarDGV() //Teste para ver se o funcionario esta sendo adicionado
-        {
+        private void ConfigurarDGV() //Teste para ver se o funcionario esta sendo adicionado
+            {
                 dgv_func.AutoGenerateColumns = true;
                 dgv_func.AllowUserToAddRows = false;
                 dgv_func.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
                 dgv_func.MultiSelect = false;
                 dgv_func.ReadOnly = true;
                 dgv_func.RowHeadersVisible = false;
-
                 dgv_func.DataSource = funcionarios;
             }
-
-
+        
         private void btn_criarPedido_Click(object sender, EventArgs e) //NÃO É IMPORTANTE PRA TELA
         {
             {
                 CriarPedido tela = new CriarPedido();
-                tela.ShowDialog();
+                tela.Show();
             }
         }
         private void btn_pedidoAndto_Click(object sender, EventArgs e)  //NÃO É IMPORTANTE PRA TELA
         {
             {
                 Financeiro tela = new Financeiro();
-                tela.ShowDialog();
+                tela.Show();
             }
         }
         private void btn_financeiro_Click(object sender, EventArgs e)  //NÃO É IMPORTANTE PRA TELA
         {
             {
                 Financeiro tela = new Financeiro();
-                tela.ShowDialog();
+                tela.Show();
             }
         }
         private void btn_estoque_Click(object sender, EventArgs e)  //NÃO É IMPORTANTE PRA TELA
         {
             {
                 Estoque tela = new Estoque();
-                tela.ShowDialog();
+                tela.Show();
             }
         }
         private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)  //NÃO É IMPORTANTE PRA TELA
@@ -82,12 +84,13 @@ namespace PojetoKamiTestes
         private void btn_funcionarios_Click(object sender, EventArgs e) //BOTÃO QUE DÁ NA TELA QUE ESTAMOS MEXENDO, NÃO É IMPORTANTE PRA TELA
         {
             GerenFunc tela = new GerenFunc();
-            tela.ShowDialog();
+            tela.Show();
         }
         private void cmb_cargo_SelectedIndexChanged(object sender, EventArgs e) //COMBOBOX DO CARGO, TÁ VAZIO NÃO PRECISA EXPANDIR
         {
 
         }
+        
         private void btn_CadFunc_Click(object sender, EventArgs e) // BOTÃO DE CADASTRAR FUNCIONÁRIO
         {
             if (string.IsNullOrWhiteSpace(txt_cadnome.Text) ||
@@ -119,17 +122,19 @@ namespace PojetoKamiTestes
                 Senha = txt_cadsenha.Text,
                 Cargo = cmb_cargo.Text
             };
-            funcionarios.Add(novoFuncionario); ; // Adiciona o novo funcionário à lista vinculada ao DataGridView, atualizando a exibição.
+            funcionarios.Add(novoFuncionario); // Adiciona o novo funcionário à lista vinculada ao DataGridView, atualizando a exibição.
 
             LimparCampos(); //Deixa limpinha as caixas de texto. A função que executa isso tá logo abaixo..
             dgv_func.ClearSelection();
             dgv_func.CurrentCell = null;
         }
+        
         private string GerarID() //Gerar um ID único para cada funcionário; verificar com Matheus se mantém ou não precisa (esqueci o nome do outro prof).
         {
             int proxNum = funcionarios.Count + 1;
             return proxNum.ToString("D3");
         }
+        
         private void LimparCampos() // Habilita a função de limpar os campos apos adicionar um novo funcionário
         { 
             txt_cadnome.Clear();

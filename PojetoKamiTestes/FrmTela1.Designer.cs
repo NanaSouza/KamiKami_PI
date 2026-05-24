@@ -147,6 +147,7 @@
             this.btn_novaSenha.TabIndex = 6;
             this.btn_novaSenha.Text = "Esqueci a senha";
             this.btn_novaSenha.UseVisualStyleBackColor = true;
+            this.btn_novaSenha.Click += new System.EventHandler(this.btn_novaSenha_Click);
             // 
             // label3
             // 

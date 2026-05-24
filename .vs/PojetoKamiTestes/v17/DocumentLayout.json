@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\pichau\\source\\repos\\projetocompleto\\pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\gerenciamentofuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenciamentofuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\pichau\\source\\repos\\projetocompleto\\pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,18 +62,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Funcionarios.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Models\\Funcionarios.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\Models\\Funcionarios.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Models\\Funcionarios.cs",
-              "RelativeToolTip": "PojetoKamiTestes\\Models\\Funcionarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T20:51:15.332Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FrmTela1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs",
@@ -78,50 +74,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "FrmTela1.cs",
               "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\FrmTela1.cs",
               "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs",
               "RelativeToolTip": "PojetoKamiTestes\\FrmTela1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T20:42:37.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GerenFunc.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\GerenFunc.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
-              "RelativeToolTip": "PojetoKamiTestes\\GerenFunc.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowI4AAABhAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Pedidoandamento.cs",
+              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\Pedidoandamento.cs",
+              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
+              "RelativeToolTip": "PojetoKamiTestes\\Pedidoandamento.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAIwL8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T00:38:39.566Z",
+              "WhenOpened": "2026-05-24T19:33:56.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Funcionarios.cs",
+              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Models\\Funcionarios.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\Models\\Funcionarios.cs",
+              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Models\\Funcionarios.cs",
+              "RelativeToolTip": "PojetoKamiTestes\\Models\\Funcionarios.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwDYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:51:15.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GerenFunc.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\GerenFunc.cs",
               "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs [Design]",
               "RelativeToolTip": "PojetoKamiTestes\\GerenFunc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T23:01:19.881Z",
+              "WhenOpened": "2026-05-04T23:01:19.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GerenciamentoFuncionarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenciamentoFuncionarios.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\GerenciamentoFuncionarios.cs",
+              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenciamentoFuncionarios.cs [Design]",
+              "RelativeToolTip": "PojetoKamiTestes\\GerenciamentoFuncionarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T19:51:34.002Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "GerenFunc.cs",
+              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\GerenFunc.cs",
+              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
+              "RelativeToolTip": "PojetoKamiTestes\\GerenFunc.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAiwKkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T00:38:39.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UsuarioDAO.cs",
               "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\UsuarioDAO.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\UsuarioDAO.cs",
               "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\UsuarioDAO.cs",
               "RelativeToolTip": "PojetoKamiTestes\\UsuarioDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowD8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T20:45:22.286Z"
             }

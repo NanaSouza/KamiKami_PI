@@ -210,7 +210,7 @@ namespace PojetoKamiTestes
         {
             {
                 CriarPedido tela = new CriarPedido();
-                tela.ShowDialog();
+                tela.Show();
             }
         }
 
@@ -218,7 +218,7 @@ namespace PojetoKamiTestes
         {
             {
                 Financeiro tela = new Financeiro();
-                tela.ShowDialog();
+                tela.Show();
             }
         }
 
@@ -233,7 +233,7 @@ namespace PojetoKamiTestes
         {
             {
                 GerenFunc tela = new GerenFunc();
-                tela.ShowDialog();
+                tela.Show();
             }
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PojetoKamiTestes
 {
-    public class Funcionarios //Estou usando essa classe para a tela de Gerenciamento de Funcionários.
+    public class Funcionarios //Estou usando essa classe para a tela GerenFunc.cs
     {
         public string Nome { get; set; }
         public string ID { get; set; }
@@ -17,7 +17,7 @@ namespace PojetoKamiTestes
         public string Cargo { get; set; }
     }
 
-    public class PedidoFinanceiro //Talvez tenha que modificar essa quando alterar as telas de Pedido e Financeiro.
+    public class PedidoFinanceiro 
     {
         public string Numero { get; set; }
         public Dictionary<string, (double preco, int quantidade)> Itens { get; set; }
@@ -34,7 +34,10 @@ namespace PojetoKamiTestes
         public decimal Preco { get; set; }
     }
 
-    public class Usuarios //Teria a mesma função da classe Funcionarios? Se sim, não precisa dessa. A outra Funcionarios já está de acordo com a tela.
+    public class Usuarios
+    //Esse aqui está na tela GerenciamentoFuncionarios.cs, certo?
+    //É o que está sendo usado no modelo que vai pro BD de UsuarioDAO.cs
+    //Então excluimos a GerenFunc.cs e usamos essa aqui, certo? Perguntar pro grupo.
     {
         public int Id { get; set; }
         public string Cpf { get; set; }
@@ -52,18 +55,18 @@ namespace PojetoKamiTestes
         public string Status { get; set; }
         public int TentativasLogin { get; set; }  = 0;
     }
-    public class LoginModel //Trabalhar com essa no domingo!
+    public class LoginModel 
     {
         public string CPF { get; set; }
         public string Senha { get; set; }
         public bool LembrarMe { get; set; }
     }
-    public class EsqueciSenhaModel //Trabalhar com essa no domingo!
+    public class EsqueciSenhaModel 
     {
         public string CPF { get; set; }
         public string Email { get; set; }
     }
-    public class RedefinirSenhaModel //Trabalhar com essa no domingo!
+    public class RedefinirSenhaModel 
     {
         public string Token { get; set; }                
         public string NovaSenha { get; set; }                
