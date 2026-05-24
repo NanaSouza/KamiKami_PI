@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace PojetoKamiTestes
 {
-    public class Funcionarios
+    public class Funcionarios //Estou usando essa classe para a tela de Gerenciamento de Funcionários.
     {
         public string Nome { get; set; }
-        public int Nascimento { get; set; }
-        public string Cpf { get; set; }
+        public string ID { get; set; }
+        public string CPF { get; set; }
+        public string Nascimento { get; set; }
         public string Telefone { get; set; }
-        public string Email { get; set; }
-        public string Login { get; set; }
         public string Senha { get; set; }
+        public string Cargo { get; set; }
     }
 
-    public class PedidoFinanceiro
+    public class PedidoFinanceiro //Talvez tenha que modificar essa quando alterar as telas de Pedido e Financeiro.
     {
         public string Numero { get; set; }
         public Dictionary<string, (double preco, int quantidade)> Itens { get; set; }
@@ -26,7 +26,7 @@ namespace PojetoKamiTestes
         public string FormaPagamento { get; set; }
     }
 
-    public class Produto
+    public class Produto //Essa é do Estoque, desconsiderar.
     {
         public string Nome { get; set; }
         public string Codigo { get; set; }
@@ -34,7 +34,7 @@ namespace PojetoKamiTestes
         public decimal Preco { get; set; }
     }
 
-    public class Usuarios
+    public class Usuarios //Teria a mesma função da classe Funcionarios? Se sim, não precisa dessa. A outra Funcionarios já está de acordo com a tela.
     {
         public int Id { get; set; }
         public string Cpf { get; set; }
@@ -52,18 +52,18 @@ namespace PojetoKamiTestes
         public string Status { get; set; }
         public int TentativasLogin { get; set; }  = 0;
     }
-    public class LoginModel
+    public class LoginModel //Trabalhar com essa no domingo!
     {
-        public string Cpf { get; set; }
+        public string CPF { get; set; }
         public string Senha { get; set; }
         public bool LembrarMe { get; set; }
     }
-    public class EsqueciSenhaModel
+    public class EsqueciSenhaModel //Trabalhar com essa no domingo!
     {
-        public string Cpf { get; set; }
+        public string CPF { get; set; }
         public string Email { get; set; }
     }
-    public class RedefinirSenhaModel
+    public class RedefinirSenhaModel //Trabalhar com essa no domingo!
     {
         public string Token { get; set; }                
         public string NovaSenha { get; set; }                

@@ -293,9 +293,11 @@
             // 
             this.txt_codigo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txt_codigo.Location = new System.Drawing.Point(3, 81);
+            this.txt_codigo.MaxLength = 100;
             this.txt_codigo.Name = "txt_codigo";
             this.txt_codigo.Size = new System.Drawing.Size(570, 20);
             this.txt_codigo.TabIndex = 7;
+            this.txt_codigo.TextChanged += new System.EventHandler(this.txt_codigo_TextChanged);
             // 
             // btn_adicionar
             // 
@@ -396,6 +398,7 @@
             this.dgv_produtos.Size = new System.Drawing.Size(570, 553);
             this.dgv_produtos.TabIndex = 0;
             this.dgv_produtos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_produtos_CellClick);
+            this.dgv_produtos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_produtos_CellContentClick);
             // 
             // Estoque
             // 

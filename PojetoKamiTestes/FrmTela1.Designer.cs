@@ -85,6 +85,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.msk_usuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.msk_usuario.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.msk_usuario.ForeColor = System.Drawing.Color.Black;
             this.msk_usuario.Location = new System.Drawing.Point(512, 255);
             this.msk_usuario.Margin = new System.Windows.Forms.Padding(4);
             this.msk_usuario.Mask = "000,000,000-00";
@@ -97,6 +98,7 @@
             this.txt_senha.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_senha.ForeColor = System.Drawing.Color.Black;
             this.txt_senha.Location = new System.Drawing.Point(512, 307);
             this.txt_senha.Margin = new System.Windows.Forms.Padding(4);
             this.txt_senha.MaxLength = 8;
@@ -137,6 +139,7 @@
             this.btn_novaSenha.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_novaSenha.FlatAppearance.BorderSize = 0;
             this.btn_novaSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_novaSenha.ForeColor = System.Drawing.SystemColors.GrayText;
             this.btn_novaSenha.Location = new System.Drawing.Point(512, 405);
             this.btn_novaSenha.Margin = new System.Windows.Forms.Padding(4);
             this.btn_novaSenha.Name = "btn_novaSenha";
@@ -148,6 +151,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.GrayText;
             this.label3.Location = new System.Drawing.Point(306, 172);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 16);
@@ -157,6 +161,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.GrayText;
             this.label4.Location = new System.Drawing.Point(306, 188);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(219, 16);

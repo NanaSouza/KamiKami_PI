@@ -20,7 +20,6 @@ namespace PojetoKamiTestes
         }
 
         //Tabela de teste para ver se o produto esta sendo adicionado
-
         private void ConfigurarDGV()
         {
             dgv_produtos.AutoGenerateColumns = true;
@@ -32,7 +31,6 @@ namespace PojetoKamiTestes
 
             dgv_produtos.DataSource = produtos;
         }
-
         private void Estoque_Load(object sender, EventArgs e)
         {
             ConfigurarDGV();
@@ -42,7 +40,6 @@ namespace PojetoKamiTestes
         {
             //Receberar as informações do banco de dados e adicionar a lista de produtos
         }
-
         private void btn_adicionar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txt_nome.Text)       ||
@@ -118,7 +115,6 @@ namespace PojetoKamiTestes
                 dgv_produtos.CurrentCell = null;
             }
         }
-
         private void dgv_produtos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -134,7 +130,6 @@ namespace PojetoKamiTestes
             }
         }
         //Configuração do botão editar. Permite editar as informações do produto selecionado
-
         private void btn_editar_Click(object sender, EventArgs e)
         {
             if (dgv_produtos.CurrentRow == null)
@@ -171,7 +166,6 @@ namespace PojetoKamiTestes
             MessageBox.Show("Produto atualizado com sucesso!");
         }
         //Configurar botão Buscar
-
         private void btn_buscar_Click(object sender, EventArgs e)
         {
             string termo = txt_buscar.Text.Trim().ToLower();
@@ -205,7 +199,6 @@ namespace PojetoKamiTestes
                 dgv_produtos.Refresh();
             }
         }
-
         private void btn_criarPedido_Click(object sender, EventArgs e)
         {
             {
@@ -213,7 +206,6 @@ namespace PojetoKamiTestes
                 tela.ShowDialog();
             }
         }
-
         private void btn_pedidoAndto_Click(object sender, EventArgs e)
         {
             {
@@ -221,7 +213,6 @@ namespace PojetoKamiTestes
                 tela.ShowDialog();
             }
         }
-
         private void btn_financeiro_Click(object sender, EventArgs e)
         {
             {
@@ -229,7 +220,6 @@ namespace PojetoKamiTestes
                 tela.ShowDialog();
             }
         }
-
         private void btn_estoque_Click(object sender, EventArgs e)
         {
             {
@@ -237,12 +227,19 @@ namespace PojetoKamiTestes
                 tela.ShowDialog();
             }
         }
-
         private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)
         {
             {
                 Application.Exit();
             }
+        }
+        private void dgv_produtos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        private void txt_codigo_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
