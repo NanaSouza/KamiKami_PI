@@ -1,3 +1,4 @@
 .vs/*
-\PojetoKamiTestes\.vs
-\PojetoKamiTestes\bin
+/PojetoKamiTestes/.vs/*
+/PojetoKamiTestes/bin/*
+/PojetoKamiTestes/obj/*
