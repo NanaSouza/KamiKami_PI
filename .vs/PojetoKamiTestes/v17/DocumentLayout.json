@@ -1,38 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\",
+  "WorkspaceRootPath": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\gerenciamentofuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenciamentofuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\vivian.ssouza7\\source\\repos\\projetocompleto\\pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\vivian.ssouza7\\source\\repos\\projetocompleto\\pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\criarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\pichau\\source\\repos\\projetocompleto\\pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\gerenfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\vivian.ssouza7\\source\\repos\\projetocompleto\\pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\frmtela1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\vivian.ssouza7\\source\\repos\\projetocompleto\\pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|c:\\users\\vivian.ssouza7\\source\\repos\\projetocompleto\\pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5714C4B1-9B7F-475D-AA05-E6641374AEF7}|PojetoKamiTestes\\PojetoKamiTestes.csproj|solutionrelative:pojetokamitestes\\pedidoandamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,6 +43,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -63,98 +59,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmTela1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\FrmTela1.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs [Design]",
-              "RelativeToolTip": "PojetoKamiTestes\\FrmTela1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T22:02:03.525Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmTela1.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\FrmTela1.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\FrmTela1.cs",
-              "RelativeToolTip": "PojetoKamiTestes\\FrmTela1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T20:42:37.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Pedidoandamento.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
+              "DocumentMoniker": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
               "RelativeDocumentMoniker": "PojetoKamiTestes\\Pedidoandamento.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
+              "ToolTip": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
               "RelativeToolTip": "PojetoKamiTestes\\Pedidoandamento.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAIwL8AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAkwLEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T19:33:56.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Funcionarios.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Models\\Funcionarios.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\Models\\Funcionarios.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Models\\Funcionarios.cs",
-              "RelativeToolTip": "PojetoKamiTestes\\Models\\Funcionarios.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAqwDYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T20:51:15.332Z",
+              "WhenOpened": "2026-05-26T22:36:46.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GerenFunc.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\GerenFunc.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs [Design]",
-              "RelativeToolTip": "PojetoKamiTestes\\GerenFunc.cs [Design]",
+              "Title": "Financeiro.cs",
+              "DocumentMoniker": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\Financeiro.cs",
+              "ToolTip": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs",
+              "RelativeToolTip": "PojetoKamiTestes\\Financeiro.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAYwIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T23:01:19.881Z"
+              "WhenOpened": "2026-05-26T22:27:09.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CriarPedido.cs",
+              "DocumentMoniker": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\CriarPedido.cs",
+              "ToolTip": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs",
+              "RelativeToolTip": "PojetoKamiTestes\\CriarPedido.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAwPIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T22:24:58.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GerenciamentoFuncionarios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenciamentoFuncionarios.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\GerenciamentoFuncionarios.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenciamentoFuncionarios.cs [Design]",
-              "RelativeToolTip": "PojetoKamiTestes\\GerenciamentoFuncionarios.cs [Design]",
+              "Title": "CriarPedido.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\CriarPedido.cs",
+              "ToolTip": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\CriarPedido.cs [Design]",
+              "RelativeToolTip": "PojetoKamiTestes\\CriarPedido.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T19:51:34.002Z",
+              "WhenOpened": "2026-05-26T22:12:29.114Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Financeiro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\Financeiro.cs",
+              "ToolTip": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Financeiro.cs [Design]",
+              "RelativeToolTip": "PojetoKamiTestes\\Financeiro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T22:09:38.077Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GerenFunc.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\GerenFunc.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\GerenFunc.cs",
-              "RelativeToolTip": "PojetoKamiTestes\\GerenFunc.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAiwKkAAAAaAAAAAAAAAA==",
+              "Title": "Pedidoandamento.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs",
+              "RelativeDocumentMoniker": "PojetoKamiTestes\\Pedidoandamento.cs",
+              "ToolTip": "C:\\Users\\vivian.ssouza7\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\Pedidoandamento.cs [Design]",
+              "RelativeToolTip": "PojetoKamiTestes\\Pedidoandamento.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T00:38:39.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuarioDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\UsuarioDAO.cs",
-              "RelativeDocumentMoniker": "PojetoKamiTestes\\UsuarioDAO.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\ProjetoCompleto\\PojetoKamiTestes\\UsuarioDAO.cs",
-              "RelativeToolTip": "PojetoKamiTestes\\UsuarioDAO.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowD8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T20:45:22.286Z"
+              "WhenOpened": "2026-05-25T21:53:54.642Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

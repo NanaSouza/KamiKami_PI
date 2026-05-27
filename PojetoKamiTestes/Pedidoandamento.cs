@@ -73,73 +73,77 @@ namespace PojetoKamiTestes
 
         private void CriarCardPedido(Panel painel, PedidoFinanceiro pedido)
         {
-            
-                painel.Controls.Clear();
-                painel.Visible = true;
-                painel.Tag = pedido;
 
-                Label titulo = new Label();
-                titulo.Text = "Pedido #" + pedido.Numero;
-                titulo.Font = new Font("Arial", 10, FontStyle.Bold);
-                titulo.Location = new Point(10, 10);
-                titulo.AutoSize = true;
+            painel.Controls.Clear();
+            painel.Visible = true;
+            painel.Tag = pedido;
 
-                painel.Controls.Add(titulo);
+            Label titulo = new Label();
+            titulo.Text = "Pedido #" + pedido.Numero;
+            titulo.Font = new Font("Arial", 10, FontStyle.Bold);
+            titulo.Location = new Point(10, 10);
+            titulo.AutoSize = true;
 
-                int y = 40;
+            painel.Controls.Add(titulo);
 
-                foreach (var item in pedido.Itens)
+            int y = 40;
+
+            foreach (var item in pedido.Itens)
+            {
+                Label lbl = new Label();
+                lbl.Text = $"{item.Key} x{item.Value.quantidade}";
+                lbl.Location = new Point(10, y);
+                lbl.AutoSize = true;
+
+                painel.Controls.Add(lbl);
+
+                y += 20;
+            }
+
+            Label lblTotal = new Label();
+            lblTotal.Text = "Total: R$ " + pedido.Total.ToString("F2");
+            lblTotal.Location = new Point(10, y + 10);
+            lblTotal.AutoSize = true;
+
+            painel.Controls.Add(lblTotal);
+
+            Label lblData = new Label();
+            lblData.Text = "Data: " + pedido.DataHora.ToString("dd/MM/yyyy HH:mm");
+            lblData.Location = new Point(10, y + 30);
+            lblData.AutoSize = true;
+
+            painel.Controls.Add(lblData);
+
+            Button btn = new Button();
+            btn.Text = "Pedido concluído";
+            btn.Size = new Size(130, 30);
+            btn.Location = new Point(10, y + 60);
+
+            btn.Click += (s, e) =>
+            {
+                if (painel.Tag is PedidoFinanceiro pedidoConcluido)
                 {
-                    Label lbl = new Label();
-                    lbl.Text = $"{item.Key} x{item.Value.quantidade}";
-                    lbl.Location = new Point(10, y);
-                    lbl.AutoSize = true;
-
-                    painel.Controls.Add(lbl);
-
-                    y += 20;
-                }
-
-                Label lblTotal = new Label();
-                lblTotal.Text = "Total: R$ " + pedido.Total.ToString("F2");
-                lblTotal.Location = new Point(10, y + 10);
-                lblTotal.AutoSize = true;
-
-                painel.Controls.Add(lblTotal);
-
-                Label lblData = new Label();
-                lblData.Text = "Data: " + pedido.DataHora.ToString("dd/MM/yyyy HH:mm");
-                lblData.Location = new Point(10, y + 30);
-                lblData.AutoSize = true;
-
-                painel.Controls.Add(lblData);
-
-                Button btn = new Button();
-                btn.Text = "Pedido concluído";
-                btn.Size = new Size(130, 30);
-                btn.Location = new Point(10, y + 60);
-
-                btn.Click += (s, e) =>
-                {
-                    PedidoFinanceiro pedidoConcluido = (PedidoFinanceiro)painel.Tag;
-
-                    if (Financeiro.Instancia == null || Financeiro.Instancia.IsDisposed)
+                    if (Financeiro.Instancia != null && !Financeiro.Instancia.IsDisposed)
                     {
-                        Financeiro telaFinanceiro = new Financeiro();
-                        telaFinanceiro.Show();
+                        Financeiro.Instancia.AdicionarPedidoFinanceiro(pedidoConcluido);
                     }
-
-                    Financeiro.Instancia.AdicionarPedidoFinanceiro(pedidoConcluido);
+                    else
+                    {
+                        MessageBox.Show("Abra a tela Financeiro para visualizar os pedidos.");
+                    }
 
                     painel.Controls.Clear();
                     painel.Visible = false;
-                };
 
-                painel.Controls.Add(btn);
+                    contadorPedidos++;
+                }
+                else
+                {
+                    MessageBox.Show("Erro: pedido inválido no painel.");
+                }
+            };
 
-                contadorPedidos++;
-            }
-        
+        }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {

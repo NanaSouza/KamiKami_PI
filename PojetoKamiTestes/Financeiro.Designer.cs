@@ -40,14 +40,14 @@
             this.btnLimpar = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.lOJAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.uSUÁRIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sAIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_criarPedido = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_pedidoAndto = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_financeiro = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_estoque = new System.Windows.Forms.ToolStripMenuItem();
+            this.uSUÁRIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_resetSenha = new System.Windows.Forms.ToolStripMenuItem();
+            this.sAIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -130,7 +130,7 @@
             this.btnExcluir.Location = new System.Drawing.Point(682, 331);
             this.btnExcluir.Margin = new System.Windows.Forms.Padding(2);
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(72, 46);
+            this.btnExcluir.Size = new System.Drawing.Size(72, 40);
             this.btnExcluir.TabIndex = 3;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
@@ -178,27 +178,6 @@
             this.lOJAToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.lOJAToolStripMenuItem.Text = "LOJA";
             // 
-            // uSUÁRIOToolStripMenuItem
-            // 
-            this.uSUÁRIOToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.btn_resetSenha});
-            this.uSUÁRIOToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uSUÁRIOToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.uSUÁRIOToolStripMenuItem.Name = "uSUÁRIOToolStripMenuItem";
-            this.uSUÁRIOToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.uSUÁRIOToolStripMenuItem.Text = "USUÁRIO";
-            // 
-            // sAIRToolStripMenuItem
-            // 
-            this.sAIRToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sAIRToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.sAIRToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.sAIRToolStripMenuItem.Name = "sAIRToolStripMenuItem";
-            this.sAIRToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.sAIRToolStripMenuItem.Text = "SAIR";
-            this.sAIRToolStripMenuItem.Click += new System.EventHandler(this.sAIRToolStripMenuItem_Click);
-            // 
             // btn_criarPedido
             // 
             this.btn_criarPedido.BackColor = System.Drawing.SystemColors.ControlText;
@@ -239,13 +218,24 @@
             this.btn_estoque.Text = "Estoque";
             this.btn_estoque.Click += new System.EventHandler(this.btn_estoque_Click);
             // 
+            // uSUÁRIOToolStripMenuItem
+            // 
+            this.uSUÁRIOToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.btn_resetSenha});
+            this.uSUÁRIOToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uSUÁRIOToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.uSUÁRIOToolStripMenuItem.Name = "uSUÁRIOToolStripMenuItem";
+            this.uSUÁRIOToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.uSUÁRIOToolStripMenuItem.Text = "USUÁRIO";
+            // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.BackColor = System.Drawing.SystemColors.ControlText;
             this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(264, 36);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(250, 22);
             this.toolStripMenuItem1.Text = "Gerenciamento de Funcionários";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -255,14 +245,24 @@
             this.btn_resetSenha.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_resetSenha.Image = ((System.Drawing.Image)(resources.GetObject("btn_resetSenha.Image")));
             this.btn_resetSenha.Name = "btn_resetSenha";
-            this.btn_resetSenha.Size = new System.Drawing.Size(264, 36);
+            this.btn_resetSenha.Size = new System.Drawing.Size(250, 22);
             this.btn_resetSenha.Text = "Reset de Senha";
+            // 
+            // sAIRToolStripMenuItem
+            // 
+            this.sAIRToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sAIRToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.sAIRToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.sAIRToolStripMenuItem.Name = "sAIRToolStripMenuItem";
+            this.sAIRToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.sAIRToolStripMenuItem.Text = "SAIR";
+            this.sAIRToolStripMenuItem.Click += new System.EventHandler(this.sAIRToolStripMenuItem_Click);
             // 
             // Financeiro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1181, 761);
+            this.ClientSize = new System.Drawing.Size(1181, 755);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnExcluir);

@@ -32,7 +32,7 @@ namespace PojetoKamiTestes
         private void GerenFunc_Load(object sender, EventArgs e) //Cadastra as opçoes no Combobox do CARGO.
         {
             cmb_cargo.Items.Add("Administrador");
-            cmb_cargo.Items.Add("Atendente");
+            cmb_cargo.Items.Add("Funcionário");
             cmb_cargo.SelectedIndex = 0;
         }
          

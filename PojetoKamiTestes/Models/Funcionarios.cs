@@ -43,9 +43,9 @@ namespace PojetoKamiTestes
         public string Cpf { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
-        public string SenhaHash { get; set; }
-        public string TipoUsuario { get; set; }
-        public string Ativo { get; set; }  
+        public string Senha { get; set; }
+        public string Tipo { get; set; }
+        public string Ativo { get; set; }
         public string Tentativaslogin { get; set; }
         public string BloqueioAte { get; set; }
         public string UltimoAcesso { get; set; }
@@ -53,7 +53,7 @@ namespace PojetoKamiTestes
         public string TokenExpira { get; set; }
         public string CriadoEm { get; set; }
         public string Status { get; set; }
-        public int TentativasLogin { get; set; }  = 0;
+        public int TentativasLogin { get; set; } = 0;
     }
     public class LoginModel 
     {

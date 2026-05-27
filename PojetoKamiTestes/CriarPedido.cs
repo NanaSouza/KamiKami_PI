@@ -84,6 +84,27 @@ namespace PojetoKamiTestes
 
                 panelDados.Controls.Add(btnMais);
 
+                Button btnMenos = new Button();
+                btnMenos.Text = "-";
+                btnMenos.Size = new Size(30, 25);
+                btnMenos.Location = new Point(290, y);
+
+                btnMenos.Click += (s, e) =>
+                {
+                    if (qtd > 1)
+                    {
+                        pedido[nome] = (preco, qtd - 1);
+                    }
+                    else
+                    {
+                        pedido.Remove(nome);
+                    }
+
+                    AtualizarPanel();
+                };
+
+                panelDados.Controls.Add(btnMenos);
+
                 y += 30;
                 total += preco * qtd;
             }
@@ -219,6 +240,7 @@ namespace PojetoKamiTestes
             {
                 Financeiro tela = new Financeiro();
                 tela.Show();
+
             }
         }
 

@@ -67,6 +67,9 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn_FinalizarPedido = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -333,7 +336,7 @@
             this.btn_criarPedido.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_criarPedido.Image = ((System.Drawing.Image)(resources.GetObject("btn_criarPedido.Image")));
             this.btn_criarPedido.Name = "btn_criarPedido";
-            this.btn_criarPedido.Size = new System.Drawing.Size(215, 36);
+            this.btn_criarPedido.Size = new System.Drawing.Size(201, 22);
             this.btn_criarPedido.Text = "Criar Pedido";
             this.btn_criarPedido.Click += new System.EventHandler(this.btn_criarPedido_Click);
             // 
@@ -343,7 +346,7 @@
             this.btn_pedidoAndto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_pedidoAndto.Image = ((System.Drawing.Image)(resources.GetObject("btn_pedidoAndto.Image")));
             this.btn_pedidoAndto.Name = "btn_pedidoAndto";
-            this.btn_pedidoAndto.Size = new System.Drawing.Size(215, 36);
+            this.btn_pedidoAndto.Size = new System.Drawing.Size(201, 22);
             this.btn_pedidoAndto.Text = "Pedido em Andamento";
             this.btn_pedidoAndto.Click += new System.EventHandler(this.btn_pedidoAndto_Click);
             // 
@@ -353,7 +356,7 @@
             this.btn_financeiro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_financeiro.Image = ((System.Drawing.Image)(resources.GetObject("btn_financeiro.Image")));
             this.btn_financeiro.Name = "btn_financeiro";
-            this.btn_financeiro.Size = new System.Drawing.Size(215, 36);
+            this.btn_financeiro.Size = new System.Drawing.Size(201, 22);
             this.btn_financeiro.Text = "Financeiro";
             this.btn_financeiro.Click += new System.EventHandler(this.btn_financeiro_Click);
             // 
@@ -363,7 +366,7 @@
             this.btn_estoque.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_estoque.Image = ((System.Drawing.Image)(resources.GetObject("btn_estoque.Image")));
             this.btn_estoque.Name = "btn_estoque";
-            this.btn_estoque.Size = new System.Drawing.Size(215, 36);
+            this.btn_estoque.Size = new System.Drawing.Size(201, 22);
             this.btn_estoque.Text = "Estoque";
             this.btn_estoque.Click += new System.EventHandler(this.btn_estoque_Click);
             // 
@@ -384,7 +387,7 @@
             this.btn_funcionarios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_funcionarios.Image = ((System.Drawing.Image)(resources.GetObject("btn_funcionarios.Image")));
             this.btn_funcionarios.Name = "btn_funcionarios";
-            this.btn_funcionarios.Size = new System.Drawing.Size(264, 36);
+            this.btn_funcionarios.Size = new System.Drawing.Size(250, 22);
             this.btn_funcionarios.Text = "Gerenciamento de Funcionários";
             this.btn_funcionarios.Click += new System.EventHandler(this.btn_funcionarios_Click);
             // 
@@ -394,7 +397,7 @@
             this.btn_resetSenha.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_resetSenha.Image = ((System.Drawing.Image)(resources.GetObject("btn_resetSenha.Image")));
             this.btn_resetSenha.Name = "btn_resetSenha";
-            this.btn_resetSenha.Size = new System.Drawing.Size(264, 36);
+            this.btn_resetSenha.Size = new System.Drawing.Size(250, 22);
             this.btn_resetSenha.Text = "Reset de Senha";
             // 
             // sAIRToolStripMenuItem
@@ -410,9 +413,9 @@
             // panelDados
             // 
             this.panelDados.FormattingEnabled = true;
-            this.panelDados.Location = new System.Drawing.Point(560, 39);
+            this.panelDados.Location = new System.Drawing.Point(577, 39);
             this.panelDados.Name = "panelDados";
-            this.panelDados.Size = new System.Drawing.Size(294, 407);
+            this.panelDados.Size = new System.Drawing.Size(296, 472);
             this.panelDados.TabIndex = 10;
             this.panelDados.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -488,7 +491,7 @@
             // 
             // btn_FinalizarPedido
             // 
-            this.btn_FinalizarPedido.Location = new System.Drawing.Point(302, 461);
+            this.btn_FinalizarPedido.Location = new System.Drawing.Point(338, 340);
             this.btn_FinalizarPedido.Name = "btn_FinalizarPedido";
             this.btn_FinalizarPedido.Size = new System.Drawing.Size(125, 23);
             this.btn_FinalizarPedido.TabIndex = 13;
@@ -498,7 +501,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(643, 409);
+            this.button1.Location = new System.Drawing.Point(643, 461);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 23);
             this.button1.TabIndex = 14;
@@ -506,11 +509,46 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "Pix",
+            "Dinheiro",
+            "Cartão de crédito",
+            "Cartão de débito"});
+            this.checkedListBox1.Location = new System.Drawing.Point(654, 382);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 64);
+            this.checkedListBox1.TabIndex = 15;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(651, 350);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 13);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Formas de pagamento";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(0, 0);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 17;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // CriarPedido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1160, 801);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panelDados);
             this.Controls.Add(this.btn_FinalizarPedido);
@@ -576,5 +614,8 @@
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

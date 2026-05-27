@@ -63,8 +63,8 @@ namespace PojetoKamiTestes
 
         private void btn_funcionarios_Click(object sender, EventArgs e) //NÃO É IMPORTANTE PARA A TELA
         {
-            GerenciamentoFuncionarios tela = new GerenciamentoFuncionarios();
-            tela.ShowDialog();
+
+
         }
 
         private void Frm_principal_Load(object sender, EventArgs e)
