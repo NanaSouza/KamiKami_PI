@@ -66,7 +66,7 @@
             this.lista_cam = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn_FinalizarPedido = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCriaPedido = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -499,15 +499,15 @@
             this.btn_FinalizarPedido.UseVisualStyleBackColor = true;
             this.btn_FinalizarPedido.Click += new System.EventHandler(this.btn_pedido_Click);
             // 
-            // button1
+            // btnCriaPedido
             // 
-            this.button1.Location = new System.Drawing.Point(643, 461);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Criar pedido";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.btnCriaPedido.Location = new System.Drawing.Point(643, 461);
+            this.btnCriaPedido.Name = "btnCriaPedido";
+            this.btnCriaPedido.Size = new System.Drawing.Size(136, 23);
+            this.btnCriaPedido.TabIndex = 14;
+            this.btnCriaPedido.Text = "Criar pedido";
+            this.btnCriaPedido.UseVisualStyleBackColor = true;
+            this.btnCriaPedido.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // checkedListBox1
             // 
@@ -549,7 +549,7 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.checkedListBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCriaPedido);
             this.Controls.Add(this.panelDados);
             this.Controls.Add(this.btn_FinalizarPedido);
             this.Controls.Add(this.menuStrip1);
@@ -613,7 +613,7 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCriaPedido;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox1;
