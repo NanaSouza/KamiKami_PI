@@ -24,7 +24,7 @@ namespace PojetoKamiTestes
                             VALUES (@Nome, @Cpf, @Email, @SenhaHash, @Tipo, @Telefone, 
                             @DataNasc, @Status)";
 
-                usuario.SenhaHash = HashSenha(usuario.SenhaHash);
+                usuario.Senha = HashSenha(usuario.Senha);
                 usuario.Status = "Ativo";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, conn))
@@ -32,8 +32,8 @@ namespace PojetoKamiTestes
                     cmd.Parameters.AddWithValue("@Nome", usuario.Nome);
                     cmd.Parameters.AddWithValue("@Cpf", LimparCpf(usuario.Cpf));
                     cmd.Parameters.AddWithValue("@Email", usuario.Email);
-                    cmd.Parameters.AddWithValue("@SenhaHash", usuario.SenhaHash);
-                    cmd.Parameters.AddWithValue("@Tipo", usuario.TipoUsuario);
+                    cmd.Parameters.AddWithValue("@SenhaHash", usuario.Senha);
+                    cmd.Parameters.AddWithValue("@Tipo", usuario.Tipo);
                     cmd.Parameters.AddWithValue("@Status", usuario.Status);
 
                     conn.Open();
@@ -66,8 +66,8 @@ namespace PojetoKamiTestes
                                 Nome = reader.GetString("NomeCompleto"),
                                 Cpf = reader.GetString("Cpf"),
                                 Email = reader.GetString("Email"),
-                                SenhaHash = reader.GetString("SenhaHash"),
-                                TipoUsuario = reader.GetString("TipoUsuario"),
+                                Senha = reader.GetString("SenhaHash"),
+                                Tipo = reader.GetString("TipoUsuario"),
                                 Status = reader.GetString("Status"),
                                 TentativasLogin = reader.GetInt32("TentativasLogin"),
                                 //DataBloqueio = reader.IsDBNull("DataBloqueio") ?
@@ -82,7 +82,7 @@ namespace PojetoKamiTestes
                             }
 
                             // Verificar senha
-                            if (VerificarSenha(senha, usuario.SenhaHash))
+                            if (VerificarSenha(senha, usuario.Senha))
                             {
                                 // Resetar tentativas e atualizar último acesso
                                 ResetarTentativasLogin(usuario.Id);
