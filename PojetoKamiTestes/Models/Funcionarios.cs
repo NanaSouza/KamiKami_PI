@@ -9,10 +9,8 @@ namespace PojetoKamiTestes
     public class Funcionarios //Estou usando essa classe para a tela GerenFunc.cs
     {
         public string Nome { get; set; }
-        public string ID { get; set; }
         public string CPF { get; set; }
         public string Nascimento { get; set; }
-        public string Telefone { get; set; }
         public string Senha { get; set; }
         public string Cargo { get; set; }
     }

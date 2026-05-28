@@ -1,10 +1,12 @@
-CREATE TABLE usuario (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  cpf VARCHAR(14) UNIQUE NOT NULL,
-  nome VARCHAR(100) NOT NULL,
-  nascimento DATE,
-  senha VARCHAR(255) NOT NULL,
-  cargo ENUM('Funcionario', 'Administrador') NOT NULL,
-  ativo TINYINT DEFAULT 1, 
-  criado_em DATETIME DEFAULT CURRENT_TIMESTAMP
-);
+--CREATE TABLE usuario (
+--  id INT AUTO_INCREMENT PRIMARY KEY,
+--  cpf VARCHAR(14) UNIQUE NOT NULL,
+--  nome VARCHAR(100) NOT NULL,
+--  nascimento DATE,
+--  senha VARCHAR(255) NOT NULL,
+--  cargo ENUM('Funcionario', 'Administrador') NOT NULL,
+--  ativo TINYINT DEFAULT 1, 
+--  criado_em DATETIME DEFAULT CURRENT_TIMESTAMP
+--);
+
+--)
