@@ -61,7 +61,7 @@
             this.lista_legumes = new System.Windows.Forms.CheckBox();
             this.lista_cam = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btn_FinalizarPedido = new System.Windows.Forms.Button();
+            this.btnFinalizarPedido = new System.Windows.Forms.Button();
             this.btnCriaPedido = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -165,7 +165,6 @@
             this.lista_hossomaki.Tag = "30,90";
             this.lista_hossomaki.Text = "11- Hossomaki 12 peças";
             this.lista_hossomaki.UseVisualStyleBackColor = true;
-            this.lista_hossomaki.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
             // lista_temakiSG
             // 
@@ -329,7 +328,7 @@
             this.btn_criarPedido.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_criarPedido.Image = ((System.Drawing.Image)(resources.GetObject("btn_criarPedido.Image")));
             this.btn_criarPedido.Name = "btn_criarPedido";
-            this.btn_criarPedido.Size = new System.Drawing.Size(215, 36);
+            this.btn_criarPedido.Size = new System.Drawing.Size(201, 22);
             this.btn_criarPedido.Text = "Criar Pedido";
             this.btn_criarPedido.Click += new System.EventHandler(this.btn_criarPedido_Click);
             // 
@@ -339,7 +338,7 @@
             this.btn_pedidoAndto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_pedidoAndto.Image = ((System.Drawing.Image)(resources.GetObject("btn_pedidoAndto.Image")));
             this.btn_pedidoAndto.Name = "btn_pedidoAndto";
-            this.btn_pedidoAndto.Size = new System.Drawing.Size(215, 36);
+            this.btn_pedidoAndto.Size = new System.Drawing.Size(201, 22);
             this.btn_pedidoAndto.Text = "Pedido em Andamento";
             this.btn_pedidoAndto.Click += new System.EventHandler(this.btn_pedidoAndto_Click);
             // 
@@ -349,7 +348,7 @@
             this.btn_financeiro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_financeiro.Image = ((System.Drawing.Image)(resources.GetObject("btn_financeiro.Image")));
             this.btn_financeiro.Name = "btn_financeiro";
-            this.btn_financeiro.Size = new System.Drawing.Size(215, 36);
+            this.btn_financeiro.Size = new System.Drawing.Size(201, 22);
             this.btn_financeiro.Text = "Financeiro";
             this.btn_financeiro.Click += new System.EventHandler(this.btn_financeiro_Click);
             // 
@@ -370,7 +369,6 @@
             this.panelDados.Name = "panelDados";
             this.panelDados.Size = new System.Drawing.Size(296, 472);
             this.panelDados.TabIndex = 10;
-            this.panelDados.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // lista_carne
             // 
@@ -382,7 +380,6 @@
             this.lista_carne.Tag = "29,90";
             this.lista_carne.Text = "01- Carne";
             this.lista_carne.UseVisualStyleBackColor = true;
-            this.lista_carne.CheckedChanged += new System.EventHandler(this.lista_carne_CheckedChanged);
             // 
             // lista_frango
             // 
@@ -442,15 +439,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "YAKISSOBA";
             // 
-            // btn_FinalizarPedido
+            // btnFinalizarPedido
             // 
-            this.btn_FinalizarPedido.Location = new System.Drawing.Point(338, 340);
-            this.btn_FinalizarPedido.Name = "btn_FinalizarPedido";
-            this.btn_FinalizarPedido.Size = new System.Drawing.Size(125, 23);
-            this.btn_FinalizarPedido.TabIndex = 13;
-            this.btn_FinalizarPedido.Text = "Adicionar Pedido";
-            this.btn_FinalizarPedido.UseVisualStyleBackColor = true;
-            this.btn_FinalizarPedido.Click += new System.EventHandler(this.btn_pedido_Click);
+            this.btnFinalizarPedido.Location = new System.Drawing.Point(338, 340);
+            this.btnFinalizarPedido.Name = "btnFinalizarPedido";
+            this.btnFinalizarPedido.Size = new System.Drawing.Size(125, 23);
+            this.btnFinalizarPedido.TabIndex = 13;
+            this.btnFinalizarPedido.Text = "Adicionar Pedido";
+            this.btnFinalizarPedido.UseVisualStyleBackColor = true;
+            this.btnFinalizarPedido.Click += new System.EventHandler(this.btnFinalizarPedido_Click);
             // 
             // btnCriaPedido
             // 
@@ -460,7 +457,7 @@
             this.btnCriaPedido.TabIndex = 14;
             this.btnCriaPedido.Text = "Criar pedido";
             this.btnCriaPedido.UseVisualStyleBackColor = true;
-            this.btnCriaPedido.Click += new System.EventHandler(this.button1_Click_1);
+            this.btnCriaPedido.Click += new System.EventHandler(this.btnCriaPedido_Click);
             // 
             // checkedListBox1
             // 
@@ -493,7 +490,7 @@
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.btnCriaPedido);
             this.Controls.Add(this.panelDados);
-            this.Controls.Add(this.btn_FinalizarPedido);
+            this.Controls.Add(this.btnFinalizarPedido);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
@@ -503,7 +500,6 @@
             this.Name = "CriarPedido";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CriarPedido";
-            this.Load += new System.EventHandler(this.CriarPedido_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -546,7 +542,7 @@
         private System.Windows.Forms.CheckBox lista_misto;
         private System.Windows.Forms.CheckBox lista_frango;
         private System.Windows.Forms.CheckBox lista_carne;
-        private System.Windows.Forms.Button btn_FinalizarPedido;
+        private System.Windows.Forms.Button btnFinalizarPedido;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox4;

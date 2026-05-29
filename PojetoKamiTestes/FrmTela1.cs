@@ -33,6 +33,7 @@ namespace PojetoKamiTestes
                 MessageBox.Show("Preencha CPF e Senha!");
                 return;
             }
+
             MySqlConnection conn = new MySqlConnection(kamikami);
             string sql = "SELECT cpf FROM usuario WHERE cpf = @cpf AND senha = @senha";
 
@@ -43,11 +44,15 @@ namespace PojetoKamiTestes
                 cmd.Parameters.AddWithValue("@cpf", cpf);
                 cmd.Parameters.AddWithValue("@senha", senha);
                 var reader = cmd.ExecuteReader();
+                reader.Read();
                 if (reader.GetValue(0) == null)
                 {
                     MessageBox.Show("CPF ou senha inválidos.");
                     return;
-                } 
+                }
+
+                new CriarPedido().Show();
+                this.Hide();
             }
             catch (Exception ex)
             {

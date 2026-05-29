@@ -15,11 +15,16 @@ namespace PojetoKamiTestes
 {
     public partial class CriarPedido : Form
     {
+        public CriarPedido()
+        {
+            InitializeComponent();
+        }
+
         // ✅ AQUI SIM (dentro da classe)
         Pedidoandamento telaPedidos;
 
-        Dictionary<string, (double preco, int quantidade)> pedido =
-       new Dictionary<string, (double preco, int quantidade)>();
+        Dictionary<string, (double preco, int quantidade)> pedido = 
+            new Dictionary<string, (double preco, int quantidade)>();
 
         private void LimparCheckboxes(Control parent)
         {
@@ -34,21 +39,6 @@ namespace PojetoKamiTestes
                     LimparCheckboxes(ctrl);
                 }
             }
-        }
-        public CriarPedido()
-        {
-           
-            InitializeComponent();
-        }
-
-        private void CriarPedido_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btn_FinalizarPedido_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void AtualizarPanel()
@@ -117,31 +107,8 @@ namespace PojetoKamiTestes
 
             panelDados.Controls.Add(lblTotal);
         }
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox4_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void btn_pedido_Click(object sender, EventArgs e)
+        private void btnFinalizarPedido_Click(object sender, EventArgs e)
         {
             pedido.Clear();
 
@@ -164,24 +131,7 @@ namespace PojetoKamiTestes
             AtualizarPanel();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lista_carne_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-
-
+        private void btnCriaPedido_Click(object sender, EventArgs e)
         {
             if (telaPedidos == null || telaPedidos.IsDisposed)
             {
@@ -214,7 +164,6 @@ namespace PojetoKamiTestes
 
         }
 
-
         private void btn_pedidoAndto_Click(object sender, EventArgs e)
         {
             Pedidoandamento tela = new Pedidoandamento();
@@ -223,10 +172,8 @@ namespace PojetoKamiTestes
 
         private void btn_criarPedido_Click(object sender, EventArgs e)
         {
-            {
-                CriarPedido tela = new CriarPedido();
-                tela.Show();
-            }
+           CriarPedido tela = new CriarPedido();
+            tela.Show();
         }
 
         private void btn_financeiro_Click(object sender, EventArgs e)
@@ -237,9 +184,7 @@ namespace PojetoKamiTestes
 
         private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            {
-                 Application.Exit();
-            }
+            Application.Exit();
         }
     }
 }

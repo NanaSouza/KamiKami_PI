@@ -6,6 +6,8 @@
     criado_em DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+INSERT INTO usuario (cpf, nome, senha) VALUES ('00000000000', 'teste', '123456');
+
 CREATE TABLE pedido (
      id INT AUTO_INCREMENT PRIMARY KEY,
    forma_pagamento VARCHAR(50) NOT NULL,
@@ -17,7 +19,7 @@ CREATE TABLE itens_pedido (
     pedido_id INT NOT NULL,
     quantidade INT NOT NULL,
     valor INT NOT NULL
-    FOREIGN KEY (pedido_id) REFERENCES pedido(id),  
+    FOREIGN KEY (pedido_id) REFERENCES pedido(id) 
 );
 
 
