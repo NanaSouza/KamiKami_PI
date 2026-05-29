@@ -36,7 +36,6 @@
             this.msk_usuario = new System.Windows.Forms.MaskedTextBox();
             this.txt_senha = new System.Windows.Forms.TextBox();
             this.btn_login = new System.Windows.Forms.Button();
-            this.btn_novaSenha = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -76,7 +75,6 @@
             this.label2.Size = new System.Drawing.Size(76, 27);
             this.label2.TabIndex = 2;
             this.label2.Text = "Senha:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // msk_usuario
             // 
@@ -130,25 +128,6 @@
             this.btn_login.UseVisualStyleBackColor = false;
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
-            // btn_novaSenha
-            // 
-            this.btn_novaSenha.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_novaSenha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btn_novaSenha.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_novaSenha.FlatAppearance.BorderSize = 0;
-            this.btn_novaSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_novaSenha.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.btn_novaSenha.Location = new System.Drawing.Point(512, 405);
-            this.btn_novaSenha.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_novaSenha.Name = "btn_novaSenha";
-            this.btn_novaSenha.Size = new System.Drawing.Size(162, 26);
-            this.btn_novaSenha.TabIndex = 6;
-            this.btn_novaSenha.Text = "Esqueci a senha";
-            this.btn_novaSenha.UseVisualStyleBackColor = true;
-            this.btn_novaSenha.Click += new System.EventHandler(this.btn_novaSenha_Click);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -177,7 +156,6 @@
             this.ClientSize = new System.Drawing.Size(1183, 759);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btn_novaSenha);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.txt_senha);
             this.Controls.Add(this.msk_usuario);
@@ -192,7 +170,6 @@
             this.Name = "Frm_principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KAMI KAMI Yakissoba";
-            this.Load += new System.EventHandler(this.Frm_principal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -205,7 +182,6 @@
         private System.Windows.Forms.MaskedTextBox msk_usuario;
         private System.Windows.Forms.TextBox txt_senha;
         private System.Windows.Forms.Button btn_login;
-        private System.Windows.Forms.Button btn_novaSenha;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
     }

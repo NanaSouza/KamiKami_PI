@@ -174,26 +174,10 @@ namespace PojetoKamiTestes
             }
         }
 
-        private void btn_estoque_Click(object sender, EventArgs e)
-        {
-            {
-                Estoque tela = new Estoque();
-                tela.Show();
-            }
-        }
-
         private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)
         {
             {
                 Application.Exit();
-            }
-        }
-
-        private void btn_funcionarios_Click(object sender, EventArgs e)
-        {
-            {
-                GerenFunc tela = new GerenFunc();
-                tela.Show();
             }
         }
     }

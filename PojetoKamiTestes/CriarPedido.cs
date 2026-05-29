@@ -221,12 +221,6 @@ namespace PojetoKamiTestes
             tela.Show();
         }
 
-        private void btn_estoque_Click(object sender, EventArgs e)
-        {
-            Estoque tela = new Estoque();
-            tela.ShowDialog();
-        }
-
         private void btn_criarPedido_Click(object sender, EventArgs e)
         {
             {
@@ -237,25 +231,14 @@ namespace PojetoKamiTestes
 
         private void btn_financeiro_Click(object sender, EventArgs e)
         {
-            {
-                Financeiro tela = new Financeiro();
-                tela.Show();
-
-            }
+            Financeiro tela = new Financeiro();
+            tela.Show();
         }
 
         private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)
         {
             {
                  Application.Exit();
-            }
-        }
-
-        private void btn_funcionarios_Click(object sender, EventArgs e)
-        {
-            {
-                GerenFunc tela = new GerenFunc();
-                tela.Show();
             }
         }
     }

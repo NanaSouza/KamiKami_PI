@@ -19,11 +19,6 @@ namespace PojetoKamiTestes
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e) //NÃO É IMPORTANTE PARA A TELA
-        {
-
-        }
-
         private void btn_login_Click(object sender, EventArgs e)
         {
             string cpf = msk_usuario.Text
@@ -56,22 +51,12 @@ namespace PojetoKamiTestes
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show("Erro ao conectar ao banco de dados: " + ex.Message);
             }
             finally
             {
                 conn.Close();
             }
-        }
-
-        private void Frm_principal_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_novaSenha_Click(object sender, EventArgs e) //Botão que vai redirecionar p/ tela de redefinir senha;
-        {
-
         }
     }
 }

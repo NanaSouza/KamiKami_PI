@@ -43,10 +43,6 @@
             this.btn_criarPedido = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_pedidoAndto = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_financeiro = new System.Windows.Forms.ToolStripMenuItem();
-            this.btn_estoque = new System.Windows.Forms.ToolStripMenuItem();
-            this.uSUÁRIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.btn_resetSenha = new System.Windows.Forms.ToolStripMenuItem();
             this.sAIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -154,7 +150,6 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(30, 30);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lOJAToolStripMenuItem,
-            this.uSUÁRIOToolStripMenuItem,
             this.sAIRToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -170,8 +165,7 @@
             this.lOJAToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btn_criarPedido,
             this.btn_pedidoAndto,
-            this.btn_financeiro,
-            this.btn_estoque});
+            this.btn_financeiro});
             this.lOJAToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lOJAToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lOJAToolStripMenuItem.Name = "lOJAToolStripMenuItem";
@@ -184,7 +178,7 @@
             this.btn_criarPedido.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_criarPedido.Image = ((System.Drawing.Image)(resources.GetObject("btn_criarPedido.Image")));
             this.btn_criarPedido.Name = "btn_criarPedido";
-            this.btn_criarPedido.Size = new System.Drawing.Size(201, 22);
+            this.btn_criarPedido.Size = new System.Drawing.Size(215, 36);
             this.btn_criarPedido.Text = "Criar Pedido";
             this.btn_criarPedido.Click += new System.EventHandler(this.btn_criarPedido_Click);
             // 
@@ -194,7 +188,7 @@
             this.btn_pedidoAndto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_pedidoAndto.Image = ((System.Drawing.Image)(resources.GetObject("btn_pedidoAndto.Image")));
             this.btn_pedidoAndto.Name = "btn_pedidoAndto";
-            this.btn_pedidoAndto.Size = new System.Drawing.Size(201, 22);
+            this.btn_pedidoAndto.Size = new System.Drawing.Size(215, 36);
             this.btn_pedidoAndto.Text = "Pedido em Andamento";
             this.btn_pedidoAndto.Click += new System.EventHandler(this.btn_pedidoAndto_Click);
             // 
@@ -204,49 +198,9 @@
             this.btn_financeiro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_financeiro.Image = ((System.Drawing.Image)(resources.GetObject("btn_financeiro.Image")));
             this.btn_financeiro.Name = "btn_financeiro";
-            this.btn_financeiro.Size = new System.Drawing.Size(201, 22);
+            this.btn_financeiro.Size = new System.Drawing.Size(215, 36);
             this.btn_financeiro.Text = "Financeiro";
             this.btn_financeiro.Click += new System.EventHandler(this.btn_financeiro_Click);
-            // 
-            // btn_estoque
-            // 
-            this.btn_estoque.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btn_estoque.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_estoque.Image = ((System.Drawing.Image)(resources.GetObject("btn_estoque.Image")));
-            this.btn_estoque.Name = "btn_estoque";
-            this.btn_estoque.Size = new System.Drawing.Size(201, 22);
-            this.btn_estoque.Text = "Estoque";
-            this.btn_estoque.Click += new System.EventHandler(this.btn_estoque_Click);
-            // 
-            // uSUÁRIOToolStripMenuItem
-            // 
-            this.uSUÁRIOToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.btn_resetSenha});
-            this.uSUÁRIOToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uSUÁRIOToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.uSUÁRIOToolStripMenuItem.Name = "uSUÁRIOToolStripMenuItem";
-            this.uSUÁRIOToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.uSUÁRIOToolStripMenuItem.Text = "USUÁRIO";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.BackColor = System.Drawing.SystemColors.ControlText;
-            this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(250, 22);
-            this.toolStripMenuItem1.Text = "Gerenciamento de Funcionários";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // btn_resetSenha
-            // 
-            this.btn_resetSenha.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btn_resetSenha.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_resetSenha.Image = ((System.Drawing.Image)(resources.GetObject("btn_resetSenha.Image")));
-            this.btn_resetSenha.Name = "btn_resetSenha";
-            this.btn_resetSenha.Size = new System.Drawing.Size(250, 22);
-            this.btn_resetSenha.Text = "Reset de Senha";
             // 
             // sAIRToolStripMenuItem
             // 
@@ -296,10 +250,6 @@
         private System.Windows.Forms.ToolStripMenuItem btn_criarPedido;
         private System.Windows.Forms.ToolStripMenuItem btn_pedidoAndto;
         private System.Windows.Forms.ToolStripMenuItem btn_financeiro;
-        private System.Windows.Forms.ToolStripMenuItem btn_estoque;
-        private System.Windows.Forms.ToolStripMenuItem uSUÁRIOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem btn_resetSenha;
         private System.Windows.Forms.ToolStripMenuItem sAIRToolStripMenuItem;
         private System.Windows.Forms.DataGridViewTextBoxColumn DataPedido;
         private System.Windows.Forms.DataGridViewTextBoxColumn NumeroPedido;
