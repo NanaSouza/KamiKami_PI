@@ -69,7 +69,6 @@
             this.btnCriaPedido = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -387,7 +386,7 @@
             this.btn_funcionarios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_funcionarios.Image = ((System.Drawing.Image)(resources.GetObject("btn_funcionarios.Image")));
             this.btn_funcionarios.Name = "btn_funcionarios";
-            this.btn_funcionarios.Size = new System.Drawing.Size(250, 22);
+            this.btn_funcionarios.Size = new System.Drawing.Size(264, 36);
             this.btn_funcionarios.Text = "Gerenciamento de Funcionários";
             this.btn_funcionarios.Click += new System.EventHandler(this.btn_funcionarios_Click);
             // 
@@ -397,7 +396,7 @@
             this.btn_resetSenha.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_resetSenha.Image = ((System.Drawing.Image)(resources.GetObject("btn_resetSenha.Image")));
             this.btn_resetSenha.Name = "btn_resetSenha";
-            this.btn_resetSenha.Size = new System.Drawing.Size(250, 22);
+            this.btn_resetSenha.Size = new System.Drawing.Size(264, 36);
             this.btn_resetSenha.Text = "Reset de Senha";
             // 
             // sAIRToolStripMenuItem
@@ -531,22 +530,11 @@
             this.label2.TabIndex = 16;
             this.label2.Text = "Formas de pagamento";
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(0, 0);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 17;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // CriarPedido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1160, 801);
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.btnCriaPedido);
@@ -616,6 +604,5 @@
         private System.Windows.Forms.Button btnCriaPedido;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
