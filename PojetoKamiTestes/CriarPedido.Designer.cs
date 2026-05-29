@@ -360,14 +360,14 @@
             this.sAIRToolStripMenuItem.Name = "sAIRToolStripMenuItem";
             this.sAIRToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.sAIRToolStripMenuItem.Text = "SAIR";
-            this.sAIRToolStripMenuItem.Click += new System.EventHandler(this.sAIRToolStripMenuItem_Click);
+            this.sAIRToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // panelDados
             // 
             this.panelDados.FormattingEnabled = true;
             this.panelDados.Location = new System.Drawing.Point(577, 39);
             this.panelDados.Name = "panelDados";
-            this.panelDados.Size = new System.Drawing.Size(296, 472);
+            this.panelDados.Size = new System.Drawing.Size(350, 472);
             this.panelDados.TabIndex = 10;
             // 
             // lista_carne

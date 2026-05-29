@@ -1,4 +1,5 @@
-﻿using PojetoKamiTestes;
+﻿using MySql.Data.MySqlClient;
+using PojetoKamiTestes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,11 +21,10 @@ namespace PojetoKamiTestes
             InitializeComponent();
         }
 
-        // ✅ AQUI SIM (dentro da classe)
-        Pedidoandamento telaPedidos;
-
         Dictionary<string, (double preco, int quantidade)> pedido = 
             new Dictionary<string, (double preco, int quantidade)>();
+
+        string kamikami = "server=localhost;uid=root;password=;database=kamikami;";
 
         private void LimparCheckboxes(Control parent)
         {
@@ -108,6 +108,14 @@ namespace PojetoKamiTestes
             panelDados.Controls.Add(lblTotal);
         }
 
+        private string ObterFormaPagamento()
+        {
+            if (checkedListBox1.CheckedItems.Count == 0)
+                return "Pix";
+
+            return checkedListBox1.CheckedItems[0].ToString();
+        }
+
         private void btnFinalizarPedido_Click(object sender, EventArgs e)
         {
             pedido.Clear();
@@ -133,12 +141,6 @@ namespace PojetoKamiTestes
 
         private void btnCriaPedido_Click(object sender, EventArgs e)
         {
-            if (telaPedidos == null || telaPedidos.IsDisposed)
-            {
-                telaPedidos = new Pedidoandamento();
-                telaPedidos.Show();
-            }
-
             var copiaPedido = new Dictionary<string, (double preco, int quantidade)>(pedido);
 
             double total = 0;
@@ -153,36 +155,74 @@ namespace PojetoKamiTestes
                 Itens = copiaPedido,
                 Total = total,
                 DataHora = DateTime.Now,
-                FormaPagamento = "Não informado"
+                FormaPagamento = ObterFormaPagamento()
             };
 
-            telaPedidos.AdicionarPedido(novoPedido);
+            MySqlConnection conn = new MySqlConnection(kamikami);
+
+            try 
+            {
+                conn.Open();
+
+                string sql = "INSERT INTO pedido (forma_pagamento) VALUES (@formapagamento)";
+
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@formapagamento", novoPedido.FormaPagamento);
+                cmd.ExecuteNonQuery();
+
+                long pedidoId = cmd.LastInsertedId;
+
+                string sql2 = "INSERT INTO itens_pedido (pedido_id, valor, quantidade) VALUES (@pedidoId, @valor, @quantidade)";
+
+                foreach (var item in novoPedido.Itens)
+                {
+                    MySqlCommand cmd2 = new MySqlCommand(sql2, conn);
+                    cmd2.Parameters.AddWithValue("@pedidoId", pedidoId);
+                    cmd2.Parameters.AddWithValue("@valor", item.Value.preco);
+                    cmd2.Parameters.AddWithValue("@quantidade", item.Value.quantidade);
+                    cmd2.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao criar pedido: " + ex.Message);
+                return;
+            }
+            finally
+            {
+                conn.Close();
+            }
 
             LimparCheckboxes(this);
             pedido.Clear();
             panelDados.Controls.Clear();
 
+            new Pedidoandamento().Show();
+            this.Hide();
         }
 
         private void btn_pedidoAndto_Click(object sender, EventArgs e)
         {
             Pedidoandamento tela = new Pedidoandamento();
             tela.Show();
+            this.Hide();
         }
 
         private void btn_criarPedido_Click(object sender, EventArgs e)
         {
-           CriarPedido tela = new CriarPedido();
+            CriarPedido tela = new CriarPedido();
             tela.Show();
+            this.Hide();
         }
 
         private void btn_financeiro_Click(object sender, EventArgs e)
         {
             Financeiro tela = new Financeiro();
             tela.Show();
+            this.Hide();
         }
 
-        private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
