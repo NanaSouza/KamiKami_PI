@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace PojetoKamiTestes
 {
     public partial class Financeiro : Form
     {
+        string kamikami = "server=localhost;uid=root;password=;database=kamikami;";
+        
         public static Financeiro Instancia;
 
         public Financeiro()
@@ -21,7 +24,7 @@ namespace PojetoKamiTestes
         }
 
         private void Financeiro_Load_1 (object sender, EventArgs e)
-        {
+        {            
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
@@ -31,83 +34,31 @@ namespace PojetoKamiTestes
 
         public void AdicionarPedidoFinanceiro(PedidoFinanceiro pedido)
         {
-            string pagamento = pedido.FormaPagamento;
-
-            // Se vier vazio ou nulo
-            if (string.IsNullOrWhiteSpace(pagamento))
+            MySqlConnection conn = new MySqlConnection(kamikami);
+            try
             {
-                pagamento = "Pix";
+                conn.Open();
+                string sql = "SELECT * pedido";
+                MySqlCommand adp = new MySqlCommand(sql, conn);
+
+                DataTable dt = new DataTable();
+                MySqlDataAdapter adapter = new MySqlDataAdapter(adp);
+
+                adapter.Fill(dt);
+
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+            finally 
+            { 
+                conn.Close();
             }
 
-            // Se vier algo inválido
-            if (pagamento != "Pix" &&
-                pagamento != "Dinheiro" &&
-                pagamento != "Cartão Débito" &&
-                pagamento != "Cartão Crédito")
-            {
-                pagamento = "Pix";
-            }
-
-            dataGridView1.Rows.Add(
-                pedido.DataHora.ToString("dd/MM/yyyy HH:mm"),
-                pedido.Numero,
-                pedido.Total.ToString("F2"),
-                pagamento
-            );
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void Financeiro_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnAdicionar_Click(object sender, EventArgs e)
-        {
-            dataGridView1.Rows.Add(
-          DateTime.Now.ToString("dd/MM/yyyy HH:mm"),
-           "0002",
-          "50,00",
-          "Dinheiro"
-    );
-        }
-
-        private void btnExcluir_Click(object sender, EventArgs e)
-        {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                dataGridView1.Rows.RemoveAt(dataGridView1.SelectedRows[0].Index);
-            }
-            else
-            {
-                MessageBox.Show("Selecione uma linha.");
-            }
-        }
-
-        private void btnLimpar_Click(object sender, EventArgs e)
-        {
-            dataGridView1.Rows.Clear();
-        }
-
-        private void btnEditar_Click(object sender, EventArgs e)
-        {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                dataGridView1.ReadOnly = false;
-                dataGridView1.BeginEdit(true);
-
-                MessageBox.Show("Agora clique na célula que deseja editar e altere o valor.");
-            }
-            else
-            {
-                MessageBox.Show("Selecione uma linha para editar.");
-            }
-        }
-
+        }         
+                          
         private void btn_criarPedido_Click(object sender, EventArgs e)
         {
             {

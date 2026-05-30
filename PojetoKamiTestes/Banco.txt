@@ -27,3 +27,9 @@ CREATE TABLE itens_pedido (
 
 INSERT INTO usuario (cpf, nome, senha) VALUES ('00000000000', 'teste', '123456');
 
+SELECT p.id AS '# Pedido', 
+p.data_pedido AS 'Data', 
+SUM(ip.valor) AS 'Valor Total' 
+FROM itens_pedido ip INNER JOIN pedido p ON ip.pedido_id = p.id 
+GROUP BY ip.pedido_id 
+ORDER BY p.data_pedido DESC;

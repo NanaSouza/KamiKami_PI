@@ -34,10 +34,6 @@
             this.NumeroPedido = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPagamento = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.btnAdicionar = new System.Windows.Forms.Button();
-            this.btnEditar = new System.Windows.Forms.Button();
-            this.btnExcluir = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.lOJAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_criarPedido = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,7 +59,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(547, 480);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            //this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // DataPedido
             // 
@@ -95,53 +91,6 @@
             "Cartão Débito",
             "Cartão Crédito"});
             this.colPagamento.Name = "colPagamento";
-            // 
-            // btnAdicionar
-            // 
-            this.btnAdicionar.Location = new System.Drawing.Point(682, 184);
-            this.btnAdicionar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAdicionar.Name = "btnAdicionar";
-            this.btnAdicionar.Size = new System.Drawing.Size(72, 49);
-            this.btnAdicionar.TabIndex = 1;
-            this.btnAdicionar.Text = "Adicionar";
-            this.btnAdicionar.UseVisualStyleBackColor = true;
-            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.Location = new System.Drawing.Point(682, 254);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(72, 46);
-            this.btnEditar.TabIndex = 2;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = true;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
-            // 
-            // btnExcluir
-            // 
-            this.btnExcluir.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExcluir.Location = new System.Drawing.Point(682, 331);
-            this.btnExcluir.Margin = new System.Windows.Forms.Padding(2);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(72, 40);
-            this.btnExcluir.TabIndex = 3;
-            this.btnExcluir.Text = "Excluir";
-            this.btnExcluir.UseVisualStyleBackColor = true;
-            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
-            // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Location = new System.Drawing.Point(682, 397);
-            this.btnLimpar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(72, 53);
-            this.btnLimpar.TabIndex = 4;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // menuStrip1
             // 
@@ -178,7 +127,7 @@
             this.btn_criarPedido.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_criarPedido.Image = ((System.Drawing.Image)(resources.GetObject("btn_criarPedido.Image")));
             this.btn_criarPedido.Name = "btn_criarPedido";
-            this.btn_criarPedido.Size = new System.Drawing.Size(215, 36);
+            this.btn_criarPedido.Size = new System.Drawing.Size(201, 22);
             this.btn_criarPedido.Text = "Criar Pedido";
             this.btn_criarPedido.Click += new System.EventHandler(this.btn_criarPedido_Click);
             // 
@@ -188,7 +137,7 @@
             this.btn_pedidoAndto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_pedidoAndto.Image = ((System.Drawing.Image)(resources.GetObject("btn_pedidoAndto.Image")));
             this.btn_pedidoAndto.Name = "btn_pedidoAndto";
-            this.btn_pedidoAndto.Size = new System.Drawing.Size(215, 36);
+            this.btn_pedidoAndto.Size = new System.Drawing.Size(201, 22);
             this.btn_pedidoAndto.Text = "Pedido em Andamento";
             this.btn_pedidoAndto.Click += new System.EventHandler(this.btn_pedidoAndto_Click);
             // 
@@ -198,7 +147,7 @@
             this.btn_financeiro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_financeiro.Image = ((System.Drawing.Image)(resources.GetObject("btn_financeiro.Image")));
             this.btn_financeiro.Name = "btn_financeiro";
-            this.btn_financeiro.Size = new System.Drawing.Size(215, 36);
+            this.btn_financeiro.Size = new System.Drawing.Size(201, 22);
             this.btn_financeiro.Text = "Financeiro";
             this.btn_financeiro.Click += new System.EventHandler(this.btn_financeiro_Click);
             // 
@@ -218,10 +167,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1181, 755);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.btnLimpar);
-            this.Controls.Add(this.btnExcluir);
-            this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.btnAdicionar);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -241,10 +186,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnAdicionar;
-        private System.Windows.Forms.Button btnEditar;
-        private System.Windows.Forms.Button btnExcluir;
-        private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem lOJAToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem btn_criarPedido;
