@@ -16,15 +16,16 @@ namespace PojetoKamiTestes
 {
     public partial class CriarPedido : Form
     {
+        Dictionary<string, (double preco, int quantidade)> pedido = 
+            new Dictionary<string, (double preco, int quantidade)>();
+
+        string kamikami = "server=localhost;uid=root;password=;database=kamikami;";
+
         public CriarPedido()
         {
             InitializeComponent();
         }
 
-        Dictionary<string, (double preco, int quantidade)> pedido = 
-            new Dictionary<string, (double preco, int quantidade)>();
-
-        string kamikami = "server=localhost;uid=root;password=;database=kamikami;";
 
         private void LimparCheckboxes(Control parent)
         {

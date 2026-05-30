@@ -12,7 +12,8 @@ CREATE TABLE usuario (
 CREATE TABLE pedido (
     id INT AUTO_INCREMENT PRIMARY KEY,
     forma_pagamento VARCHAR(50) NOT NULL,
-    data_pedido DATETIME DEFAULT CURRENT_TIMESTAMP
+    data_pedido DATETIME DEFAULT CURRENT_TIMESTAMP,
+    status VARCHAR(20) NOT NULL DEFAULT 'Em preparação'
 );
 
 CREATE TABLE itens_pedido (
