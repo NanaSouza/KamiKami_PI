@@ -172,7 +172,7 @@ namespace PojetoKamiTestes
 
                 long pedidoId = cmd.LastInsertedId;
 
-                string sql2 = "INSERT INTO itens_pedido (pedido_id, valor, quantidade) VALUES (@pedidoId, @valor, @quantidade)";
+                string sql2 = "INSERT INTO itens_pedido (pedido_id, nome, valor, quantidade) VALUES (@pedidoId, @nome, @valor, @quantidade)";
 
                 foreach (var item in novoPedido.Itens)
                 {
@@ -180,6 +180,7 @@ namespace PojetoKamiTestes
                     cmd2.Parameters.AddWithValue("@pedidoId", pedidoId);
                     cmd2.Parameters.AddWithValue("@valor", item.Value.preco);
                     cmd2.Parameters.AddWithValue("@quantidade", item.Value.quantidade);
+                    cmd2.Parameters.AddWithValue("@nome", item.Key);
                     cmd2.ExecuteNonQuery();
                 }
             }
