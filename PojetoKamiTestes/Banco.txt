@@ -1,4 +1,7 @@
-﻿CREATE TABLE usuario (
+﻿CREATE DATABASE kamikami;
+USE kamikami;
+
+CREATE TABLE usuario (
     id INT AUTO_INCREMENT PRIMARY KEY,
     cpf VARCHAR(14) UNIQUE NOT NULL,
     nome VARCHAR(100) NOT NULL,
@@ -6,20 +9,21 @@
     criado_em DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO usuario (cpf, nome, senha) VALUES ('00000000000', 'teste', '123456');
-
 CREATE TABLE pedido (
     id INT AUTO_INCREMENT PRIMARY KEY,
     forma_pagamento VARCHAR(50) NOT NULL,
-    data DATETIME DEFAULT CURRENT_TIMESTAMP
+    data_pedido DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE itens_pedido (
-     id INT AUTO_INCREMENT PRIMARY KEY,
-    pedido_id INT NOT NULL,
-    quantidade INT NOT NULL,
-    valor INT NOT NULL
-    FOREIGN KEY (pedido_id) REFERENCES pedido(id) 
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pedido_id INT NOT NULL,
+    quantidade INT NOT NULL,
+    valor INT NOT NULL,
+    FOREIGN KEY (pedido_id) REFERENCES pedido(id) 
 );
 
+
+
+INSERT INTO usuario (cpf, nome, senha) VALUES ('00000000000', 'teste', '123456');
 
