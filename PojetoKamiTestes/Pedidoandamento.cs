@@ -36,8 +36,6 @@ namespace PojetoKamiTestes
                     UserControlPedidos card = new UserControlPedidos();
 
                     card.NumeroPedido = reader.GetInt32("id").ToString();
-                    card.Cliente = "João";
-                    card.Valor = "R$ 50,00";
                 }
             }
             catch (Exception ex)
