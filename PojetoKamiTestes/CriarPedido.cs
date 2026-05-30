@@ -16,15 +16,16 @@ namespace PojetoKamiTestes
 {
     public partial class CriarPedido : Form
     {
+        Dictionary<string, (double preco, int quantidade)> pedido = 
+            new Dictionary<string, (double preco, int quantidade)>();
+
+        string kamikami = "server=localhost;uid=root;password=;database=kamikami;";
+
         public CriarPedido()
         {
             InitializeComponent();
         }
 
-        Dictionary<string, (double preco, int quantidade)> pedido = 
-            new Dictionary<string, (double preco, int quantidade)>();
-
-        string kamikami = "server=localhost;uid=root;password=;database=kamikami;";
 
         private void LimparCheckboxes(Control parent)
         {
@@ -172,7 +173,7 @@ namespace PojetoKamiTestes
 
                 long pedidoId = cmd.LastInsertedId;
 
-                string sql2 = "INSERT INTO itens_pedido (pedido_id, valor, quantidade) VALUES (@pedidoId, @valor, @quantidade)";
+                string sql2 = "INSERT INTO itens_pedido (pedido_id, nome, valor, quantidade) VALUES (@pedidoId, @nome, @valor, @quantidade)";
 
                 foreach (var item in novoPedido.Itens)
                 {
@@ -180,6 +181,7 @@ namespace PojetoKamiTestes
                     cmd2.Parameters.AddWithValue("@pedidoId", pedidoId);
                     cmd2.Parameters.AddWithValue("@valor", item.Value.preco);
                     cmd2.Parameters.AddWithValue("@quantidade", item.Value.quantidade);
+                    cmd2.Parameters.AddWithValue("@nome", item.Key);
                     cmd2.ExecuteNonQuery();
                 }
             }
