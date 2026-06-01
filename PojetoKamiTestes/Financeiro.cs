@@ -43,7 +43,9 @@ namespace PojetoKamiTestes
                 {
                     conn.Open();
 
-                    string sql = "SELECT * FROM pedido";
+                    string sql = "SELECT p.id, p.forma_pagamento, p.data, p.status, SUM(ip.valor) AS Total FROM pedido p " +
+                        "INNER JOIN itens_pedido ip ON p.id = ip.pedido_id " +
+                        "GROUP BY p.id";
 
                     MySqlDataAdapter adapter = new MySqlDataAdapter(sql, conn);
 
@@ -56,6 +58,10 @@ namespace PojetoKamiTestes
                 catch (Exception ex)
                 {
                     MessageBox.Show("Erro ao carregar pedidos: " + ex.Message);
+                }
+                finally
+                {
+                    conn.Close();
                 }
             }
         }
