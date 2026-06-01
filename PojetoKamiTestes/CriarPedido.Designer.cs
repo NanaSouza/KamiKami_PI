@@ -82,6 +82,8 @@
             this.groupBox2.Controls.Add(this.lista_hossomaki);
             this.groupBox2.Controls.Add(this.lista_temakiSG);
             this.groupBox2.Controls.Add(this.lista_TemakiSC);
+            this.groupBox2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(12, 219);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(213, 265);
@@ -94,7 +96,7 @@
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(0, 104);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(127, 17);
+            this.checkBox3.Size = new System.Drawing.Size(141, 16);
             this.checkBox3.TabIndex = 15;
             this.checkBox3.Tag = "29,90";
             this.checkBox3.Text = "08 - Combo 12 peças";
@@ -105,7 +107,7 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(0, 127);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(127, 17);
+            this.checkBox2.Size = new System.Drawing.Size(141, 16);
             this.checkBox2.TabIndex = 14;
             this.checkBox2.Tag = "35,90";
             this.checkBox2.Text = "09 - Combo 14 peças";
@@ -116,7 +118,7 @@
             this.checkBox4.AutoSize = true;
             this.checkBox4.Location = new System.Drawing.Point(0, 150);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(127, 17);
+            this.checkBox4.Size = new System.Drawing.Size(141, 16);
             this.checkBox4.TabIndex = 26;
             this.checkBox4.Tag = "41,90";
             this.checkBox4.Text = "10 - Combo 16 peças";
@@ -129,7 +131,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label1.Location = new System.Drawing.Point(20, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 15);
+            this.label1.Size = new System.Drawing.Size(156, 14);
             this.label1.TabIndex = 21;
             this.label1.Text = "Sushi - Sashimi - Enrolados";
             // 
@@ -138,7 +140,7 @@
             this.lista_poke.AutoSize = true;
             this.lista_poke.Location = new System.Drawing.Point(0, 219);
             this.lista_poke.Name = "lista_poke";
-            this.lista_poke.Size = new System.Drawing.Size(73, 17);
+            this.lista_poke.Size = new System.Drawing.Size(76, 16);
             this.lista_poke.TabIndex = 23;
             this.lista_poke.Tag = "40,90";
             this.lista_poke.Text = "13- POKE";
@@ -149,7 +151,7 @@
             this.lista_urumaki.AutoSize = true;
             this.lista_urumaki.Location = new System.Drawing.Point(0, 196);
             this.lista_urumaki.Name = "lista_urumaki";
-            this.lista_urumaki.Size = new System.Drawing.Size(167, 17);
+            this.lista_urumaki.Size = new System.Drawing.Size(190, 16);
             this.lista_urumaki.TabIndex = 22;
             this.lista_urumaki.Tag = "34,90";
             this.lista_urumaki.Text = "12- Urumaki Salmão Grelhado";
@@ -160,7 +162,7 @@
             this.lista_hossomaki.AutoSize = true;
             this.lista_hossomaki.Location = new System.Drawing.Point(0, 173);
             this.lista_hossomaki.Name = "lista_hossomaki";
-            this.lista_hossomaki.Size = new System.Drawing.Size(143, 17);
+            this.lista_hossomaki.Size = new System.Drawing.Size(159, 16);
             this.lista_hossomaki.TabIndex = 21;
             this.lista_hossomaki.Tag = "30,90";
             this.lista_hossomaki.Text = "11- Hossomaki 12 peças";
@@ -171,7 +173,7 @@
             this.lista_temakiSG.AutoSize = true;
             this.lista_temakiSG.Location = new System.Drawing.Point(6, 44);
             this.lista_temakiSG.Name = "lista_temakiSG";
-            this.lista_temakiSG.Size = new System.Drawing.Size(163, 17);
+            this.lista_temakiSG.Size = new System.Drawing.Size(184, 16);
             this.lista_temakiSG.TabIndex = 19;
             this.lista_temakiSG.Tag = "30,90";
             this.lista_temakiSG.Text = "07- Temaki Salmão Grelhado";
@@ -182,7 +184,7 @@
             this.lista_TemakiSC.AutoSize = true;
             this.lista_TemakiSC.Location = new System.Drawing.Point(6, 22);
             this.lista_TemakiSC.Name = "lista_TemakiSC";
-            this.lista_TemakiSC.Size = new System.Drawing.Size(136, 17);
+            this.lista_TemakiSC.Size = new System.Drawing.Size(152, 16);
             this.lista_TemakiSC.TabIndex = 18;
             this.lista_TemakiSC.Tag = "30,90";
             this.lista_TemakiSC.Text = "06- Temaki Salmão Cru";
@@ -198,6 +200,8 @@
             this.groupBox3.Controls.Add(this.lista_soda);
             this.groupBox3.Controls.Add(this.lista_guarana);
             this.groupBox3.Controls.Add(this.lista_cocacola);
+            this.groupBox3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.ForeColor = System.Drawing.Color.Black;
             this.groupBox3.Location = new System.Drawing.Point(315, 39);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(207, 233);
@@ -210,7 +214,7 @@
             this.lista_suco.AutoSize = true;
             this.lista_suco.Location = new System.Drawing.Point(7, 180);
             this.lista_suco.Name = "lista_suco";
-            this.lista_suco.Size = new System.Drawing.Size(141, 17);
+            this.lista_suco.Size = new System.Drawing.Size(159, 16);
             this.lista_suco.TabIndex = 28;
             this.lista_suco.Tag = "7,5";
             this.lista_suco.Text = "Suco de Laranja Natural";
@@ -221,7 +225,7 @@
             this.lista_h2o.AutoSize = true;
             this.lista_h2o.Location = new System.Drawing.Point(7, 157);
             this.lista_h2o.Name = "lista_h2o";
-            this.lista_h2o.Size = new System.Drawing.Size(48, 17);
+            this.lista_h2o.Size = new System.Drawing.Size(48, 16);
             this.lista_h2o.TabIndex = 27;
             this.lista_h2o.Tag = "7,5";
             this.lista_h2o.Text = "H2O";
@@ -232,7 +236,7 @@
             this.lista_del.AutoSize = true;
             this.lista_del.Location = new System.Drawing.Point(7, 134);
             this.lista_del.Name = "lista_del";
-            this.lista_del.Size = new System.Drawing.Size(68, 17);
+            this.lista_del.Size = new System.Drawing.Size(73, 16);
             this.lista_del.TabIndex = 26;
             this.lista_del.Tag = "7,5";
             this.lista_del.Text = "Del Valle";
@@ -243,7 +247,7 @@
             this.lista_ASG.AutoSize = true;
             this.lista_ASG.Location = new System.Drawing.Point(7, 111);
             this.lista_ASG.Name = "lista_ASG";
-            this.lista_ASG.Size = new System.Drawing.Size(93, 17);
+            this.lista_ASG.Size = new System.Drawing.Size(102, 16);
             this.lista_ASG.TabIndex = 25;
             this.lista_ASG.Tag = "3,5";
             this.lista_ASG.Text = "Água sem gás";
@@ -254,7 +258,7 @@
             this.lista_ACG.AutoSize = true;
             this.lista_ACG.Location = new System.Drawing.Point(6, 88);
             this.lista_ACG.Name = "lista_ACG";
-            this.lista_ACG.Size = new System.Drawing.Size(94, 17);
+            this.lista_ACG.Size = new System.Drawing.Size(103, 16);
             this.lista_ACG.TabIndex = 24;
             this.lista_ACG.Tag = "4,5";
             this.lista_ACG.Text = "Água com gás";
@@ -265,7 +269,7 @@
             this.lista_soda.AutoSize = true;
             this.lista_soda.Location = new System.Drawing.Point(6, 65);
             this.lista_soda.Name = "lista_soda";
-            this.lista_soda.Size = new System.Drawing.Size(51, 17);
+            this.lista_soda.Size = new System.Drawing.Size(52, 16);
             this.lista_soda.TabIndex = 23;
             this.lista_soda.Tag = "6,5";
             this.lista_soda.Text = "Soda";
@@ -276,7 +280,7 @@
             this.lista_guarana.AutoSize = true;
             this.lista_guarana.Location = new System.Drawing.Point(6, 42);
             this.lista_guarana.Name = "lista_guarana";
-            this.lista_guarana.Size = new System.Drawing.Size(67, 17);
+            this.lista_guarana.Size = new System.Drawing.Size(73, 16);
             this.lista_guarana.TabIndex = 22;
             this.lista_guarana.Tag = "6.5";
             this.lista_guarana.Text = "Guaraná";
@@ -287,7 +291,7 @@
             this.lista_cocacola.AutoSize = true;
             this.lista_cocacola.Location = new System.Drawing.Point(6, 19);
             this.lista_cocacola.Name = "lista_cocacola";
-            this.lista_cocacola.Size = new System.Drawing.Size(75, 17);
+            this.lista_cocacola.Size = new System.Drawing.Size(82, 16);
             this.lista_cocacola.TabIndex = 21;
             this.lista_cocacola.Tag = "6,5";
             this.lista_cocacola.Text = "Coca-Cola";
@@ -364,7 +368,10 @@
             // 
             // panelDados
             // 
+            this.panelDados.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelDados.ForeColor = System.Drawing.Color.Black;
             this.panelDados.FormattingEnabled = true;
+            this.panelDados.ItemHeight = 12;
             this.panelDados.Location = new System.Drawing.Point(577, 39);
             this.panelDados.Name = "panelDados";
             this.panelDados.Size = new System.Drawing.Size(350, 472);
@@ -375,7 +382,7 @@
             this.lista_carne.AutoSize = true;
             this.lista_carne.Location = new System.Drawing.Point(6, 19);
             this.lista_carne.Name = "lista_carne";
-            this.lista_carne.Size = new System.Drawing.Size(72, 17);
+            this.lista_carne.Size = new System.Drawing.Size(79, 16);
             this.lista_carne.TabIndex = 15;
             this.lista_carne.Tag = "29,90";
             this.lista_carne.Text = "01- Carne";
@@ -386,7 +393,7 @@
             this.lista_frango.AutoSize = true;
             this.lista_frango.Location = new System.Drawing.Point(6, 42);
             this.lista_frango.Name = "lista_frango";
-            this.lista_frango.Size = new System.Drawing.Size(77, 17);
+            this.lista_frango.Size = new System.Drawing.Size(85, 16);
             this.lista_frango.TabIndex = 16;
             this.lista_frango.Tag = "28,90";
             this.lista_frango.Text = "02- Frango";
@@ -397,7 +404,7 @@
             this.lista_misto.AutoSize = true;
             this.lista_misto.Location = new System.Drawing.Point(6, 65);
             this.lista_misto.Name = "lista_misto";
-            this.lista_misto.Size = new System.Drawing.Size(69, 17);
+            this.lista_misto.Size = new System.Drawing.Size(74, 16);
             this.lista_misto.TabIndex = 17;
             this.lista_misto.Tag = "27,90";
             this.lista_misto.Text = "03- Misto";
@@ -408,7 +415,7 @@
             this.lista_legumes.AutoSize = true;
             this.lista_legumes.Location = new System.Drawing.Point(6, 88);
             this.lista_legumes.Name = "lista_legumes";
-            this.lista_legumes.Size = new System.Drawing.Size(87, 17);
+            this.lista_legumes.Size = new System.Drawing.Size(96, 16);
             this.lista_legumes.TabIndex = 18;
             this.lista_legumes.Tag = "26,90";
             this.lista_legumes.Text = "04- Legumes";
@@ -419,7 +426,7 @@
             this.lista_cam.AutoSize = true;
             this.lista_cam.Location = new System.Drawing.Point(6, 111);
             this.lista_cam.Name = "lista_cam";
-            this.lista_cam.Size = new System.Drawing.Size(86, 17);
+            this.lista_cam.Size = new System.Drawing.Size(96, 16);
             this.lista_cam.TabIndex = 19;
             this.lista_cam.Tag = "34,90";
             this.lista_cam.Text = "03- Camarão";
@@ -432,6 +439,8 @@
             this.groupBox1.Controls.Add(this.lista_misto);
             this.groupBox1.Controls.Add(this.lista_frango);
             this.groupBox1.Controls.Add(this.lista_carne);
+            this.groupBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(12, 39);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(213, 161);
@@ -441,33 +450,39 @@
             // 
             // btnFinalizarPedido
             // 
+            this.btnFinalizarPedido.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalizarPedido.ForeColor = System.Drawing.Color.Black;
             this.btnFinalizarPedido.Location = new System.Drawing.Point(338, 340);
             this.btnFinalizarPedido.Name = "btnFinalizarPedido";
-            this.btnFinalizarPedido.Size = new System.Drawing.Size(125, 23);
+            this.btnFinalizarPedido.Size = new System.Drawing.Size(133, 33);
             this.btnFinalizarPedido.TabIndex = 13;
-            this.btnFinalizarPedido.Text = "Adicionar Pedido";
+            this.btnFinalizarPedido.Text = "ADICIONAR PEDIDO";
             this.btnFinalizarPedido.UseVisualStyleBackColor = true;
             this.btnFinalizarPedido.Click += new System.EventHandler(this.btnFinalizarPedido_Click);
             // 
             // btnCriaPedido
             // 
-            this.btnCriaPedido.Location = new System.Drawing.Point(643, 461);
+            this.btnCriaPedido.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCriaPedido.ForeColor = System.Drawing.Color.Black;
+            this.btnCriaPedido.Location = new System.Drawing.Point(674, 451);
             this.btnCriaPedido.Name = "btnCriaPedido";
-            this.btnCriaPedido.Size = new System.Drawing.Size(136, 23);
+            this.btnCriaPedido.Size = new System.Drawing.Size(133, 33);
             this.btnCriaPedido.TabIndex = 14;
-            this.btnCriaPedido.Text = "Criar pedido";
+            this.btnCriaPedido.Text = "CRIAR PEDIDO";
             this.btnCriaPedido.UseVisualStyleBackColor = true;
             this.btnCriaPedido.Click += new System.EventHandler(this.btnCriaPedido_Click);
             // 
             // checkedListBox1
             // 
+            this.checkedListBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkedListBox1.ForeColor = System.Drawing.Color.Black;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
             "Pix",
             "Dinheiro",
             "Cartão de crédito",
             "Cartão de débito"});
-            this.checkedListBox1.Location = new System.Drawing.Point(654, 382);
+            this.checkedListBox1.Location = new System.Drawing.Point(680, 376);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(120, 64);
             this.checkedListBox1.TabIndex = 15;
@@ -475,11 +490,13 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(651, 350);
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(667, 361);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 13);
+            this.label2.Size = new System.Drawing.Size(146, 12);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Formas de pagamento";
+            this.label2.Text = "FORMAS DE PAGAMENTO";
             // 
             // CriarPedido
             // 
