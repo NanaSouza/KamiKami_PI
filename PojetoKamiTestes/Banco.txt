@@ -13,6 +13,7 @@ CREATE TABLE pedido (
     id INT AUTO_INCREMENT PRIMARY KEY,
     forma_pagamento VARCHAR(50) NOT NULL,
     data_pedido DATETIME DEFAULT CURRENT_TIMESTAMP,
+    valor INT NOT NULL,
     status VARCHAR(20) NOT NULL DEFAULT 'Em preparação'
 );
 
@@ -33,3 +34,4 @@ SUM(ip.valor) AS 'Valor Total'
 FROM itens_pedido ip INNER JOIN pedido p ON ip.pedido_id = p.id 
 GROUP BY ip.pedido_id 
 ORDER BY p.data_pedido DESC;
+

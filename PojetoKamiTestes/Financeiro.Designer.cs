@@ -30,10 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Financeiro));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.DataPedido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NumeroPedido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colPagamento = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.lOJAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_criarPedido = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,11 +43,6 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.DataPedido,
-            this.NumeroPedido,
-            this.Valor,
-            this.colPagamento});
             this.dataGridView1.Location = new System.Drawing.Point(93, 121);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
@@ -59,38 +50,6 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(547, 480);
             this.dataGridView1.TabIndex = 0;
-            //this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // DataPedido
-            // 
-            this.DataPedido.HeaderText = "Data do Pedido";
-            this.DataPedido.MinimumWidth = 6;
-            this.DataPedido.Name = "DataPedido";
-            this.DataPedido.Width = 125;
-            // 
-            // NumeroPedido
-            // 
-            this.NumeroPedido.HeaderText = "Nº do pedido";
-            this.NumeroPedido.MinimumWidth = 6;
-            this.NumeroPedido.Name = "NumeroPedido";
-            this.NumeroPedido.Width = 125;
-            // 
-            // Valor
-            // 
-            this.Valor.HeaderText = "Valor";
-            this.Valor.MinimumWidth = 6;
-            this.Valor.Name = "Valor";
-            this.Valor.Width = 125;
-            // 
-            // colPagamento
-            // 
-            this.colPagamento.HeaderText = "Forma de pagamento";
-            this.colPagamento.Items.AddRange(new object[] {
-            "Pix",
-            "Dinheiro",
-            "Cartão Débito",
-            "Cartão Crédito"});
-            this.colPagamento.Name = "colPagamento";
             // 
             // menuStrip1
             // 
@@ -192,9 +151,5 @@
         private System.Windows.Forms.ToolStripMenuItem btn_pedidoAndto;
         private System.Windows.Forms.ToolStripMenuItem btn_financeiro;
         private System.Windows.Forms.ToolStripMenuItem sAIRToolStripMenuItem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DataPedido;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NumeroPedido;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Valor;
-        private System.Windows.Forms.DataGridViewComboBoxColumn colPagamento;
     }
 }

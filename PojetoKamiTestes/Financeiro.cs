@@ -24,41 +24,45 @@ namespace PojetoKamiTestes
         }
 
         private void Financeiro_Load_1 (object sender, EventArgs e)
-        {            
+        {
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.MultiSelect = false;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            CarregarPedidos();
+
         }
 
-        public void AdicionarPedidoFinanceiro(PedidoFinanceiro pedido)
+        public void CarregarPedidos()
         {
-            MySqlConnection conn = new MySqlConnection(kamikami);
-            try
+            using (MySqlConnection conn = new MySqlConnection(kamikami))
             {
-                conn.Open();
-                string sql = "SELECT * pedido";
-                MySqlCommand adp = new MySqlCommand(sql, conn);
+                try
+                {
+                    conn.Open();
 
-                DataTable dt = new DataTable();
-                MySqlDataAdapter adapter = new MySqlDataAdapter(adp);
+                    string sql = "SELECT * FROM pedido";
 
-                adapter.Fill(dt);
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(sql, conn);
 
-                dataGridView1.DataSource = dt;
+                    DataTable tabela = new DataTable();
+
+                    adapter.Fill(tabela);
+
+                    dataGridView1.DataSource = tabela;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao carregar pedidos: " + ex.Message);
+                }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error: {ex.Message}");
-            }
-            finally 
-            { 
-                conn.Close();
-            }
+        }
 
-        }         
-                          
+
+
+
         private void btn_criarPedido_Click(object sender, EventArgs e)
         {
             {
@@ -89,6 +93,8 @@ namespace PojetoKamiTestes
                 Application.Exit();
             }
         }
+
+
     }
 }
 

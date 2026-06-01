@@ -228,5 +228,10 @@ namespace PojetoKamiTestes
         {
             Application.Exit();
         }
+
+        private void CriarPedido_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

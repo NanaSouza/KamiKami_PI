@@ -40,45 +40,55 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(3, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.Size = new System.Drawing.Size(52, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "Pedido #";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(5, 31);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 13);
+            this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 1;
             this.label2.Text = "Valor R$";
             // 
             // buttonFinalizar
             // 
+            this.buttonFinalizar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFinalizar.ForeColor = System.Drawing.Color.Black;
             this.buttonFinalizar.Location = new System.Drawing.Point(20, 203);
             this.buttonFinalizar.Name = "buttonFinalizar";
             this.buttonFinalizar.Size = new System.Drawing.Size(213, 23);
             this.buttonFinalizar.TabIndex = 3;
-            this.buttonFinalizar.Text = "Finalizar pedido";
+            this.buttonFinalizar.Text = "FINALIZAR PEDIDO";
             this.buttonFinalizar.UseVisualStyleBackColor = true;
             // 
             // labelNroPedido
             // 
             this.labelNroPedido.AutoSize = true;
+            this.labelNroPedido.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNroPedido.ForeColor = System.Drawing.Color.Black;
             this.labelNroPedido.Location = new System.Drawing.Point(59, 15);
             this.labelNroPedido.Name = "labelNroPedido";
-            this.labelNroPedido.Size = new System.Drawing.Size(35, 13);
+            this.labelNroPedido.Size = new System.Drawing.Size(39, 12);
             this.labelNroPedido.TabIndex = 4;
             this.labelNroPedido.Text = "label3";
             // 
             // labelValor
             // 
             this.labelValor.AutoSize = true;
+            this.labelValor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelValor.ForeColor = System.Drawing.Color.Black;
             this.labelValor.Location = new System.Drawing.Point(59, 31);
             this.labelValor.Name = "labelValor";
-            this.labelValor.Size = new System.Drawing.Size(35, 13);
+            this.labelValor.Size = new System.Drawing.Size(39, 12);
             this.labelValor.TabIndex = 5;
             this.labelValor.Text = "label4";
             // 
