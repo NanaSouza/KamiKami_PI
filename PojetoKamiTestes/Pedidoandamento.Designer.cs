@@ -35,6 +35,7 @@
             this.btn_pedidoAndto = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_financeiro = new System.Windows.Forms.ToolStripMenuItem();
             this.sAIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableLayoutPanelPedidos = new System.Windows.Forms.TableLayoutPanel();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -107,11 +108,26 @@
             this.sAIRToolStripMenuItem.Text = "SAIR";
             this.sAIRToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
+            // tableLayoutPanelPedidos
+            // 
+            this.tableLayoutPanelPedidos.ColumnCount = 3;
+            this.tableLayoutPanelPedidos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanelPedidos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanelPedidos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanelPedidos.Location = new System.Drawing.Point(12, 27);
+            this.tableLayoutPanelPedidos.Name = "tableLayoutPanelPedidos";
+            this.tableLayoutPanelPedidos.RowCount = 1;
+            this.tableLayoutPanelPedidos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelPedidos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanelPedidos.Size = new System.Drawing.Size(896, 422);
+            this.tableLayoutPanelPedidos.TabIndex = 11;
+            // 
             // Pedidoandamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(956, 461);
+            this.Controls.Add(this.tableLayoutPanelPedidos);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(800, 500);
@@ -133,5 +149,6 @@
         private System.Windows.Forms.ToolStripMenuItem btn_pedidoAndto;
         private System.Windows.Forms.ToolStripMenuItem btn_financeiro;
         private System.Windows.Forms.ToolStripMenuItem sAIRToolStripMenuItem;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelPedidos;
     }
 }

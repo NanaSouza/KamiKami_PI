@@ -24,18 +24,59 @@ namespace PojetoKamiTestes
         private void ListarPedidosPendentes()
         {
             MySqlConnection conexao = new MySqlConnection(kamikami);
-            string sql = "SELECT * FROM pedido WHERE status = 'Em preparação';";
 
             try
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand(sql, conexao);
-                var reader = cmd.ExecuteReader();
-                while (reader.Read())
-                {
-                    UserControlPedidos card = new UserControlPedidos();
 
-                    card.NumeroPedido = reader.GetInt32("id").ToString();
+                string sqlPedido = "SELECT p.id, sum(ip.valor) as total " +
+                                    "FROM pedido p " +
+                                    "INNER JOIN itens_pedido ip ON p.id = ip.pedido_id " +
+                                    "WHERE status = 'Em preparação' " +
+                                    "GROUP BY p.id;";
+                MySqlCommand cmd = new MySqlCommand(sqlPedido, conexao);
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                DataTable dataTablePedidos = new DataTable();
+                adapter.Fill(dataTablePedidos);
+
+                foreach (DataRow row in dataTablePedidos.Rows)
+                {
+                    string sqlItens = "SELECT ip.nome, ip.quantidade, ip.valor " +
+                                        "FROM itens_pedido ip " +
+                                        "WHERE pedido_id = @idPedido";
+                    MySqlCommand cmdItens = new MySqlCommand(sqlItens, conexao);
+                    cmdItens.Parameters.AddWithValue("@idPedido", row["id"]);
+                    MySqlDataAdapter adapterItens = new MySqlDataAdapter(cmdItens);
+                    DataTable dtItens = new DataTable();
+                    adapterItens.Fill(dtItens);
+
+                    UserControlPedidos card = new UserControlPedidos();
+                    card.NumeroPedido = row["id"].ToString();
+                    card.Valor = Convert.ToDouble(row["total"]).ToString("F2");
+                    card.DataGridViewItensPedido.DataSource = dtItens;
+                    tableLayoutPanelPedidos.Controls.Add(card);
+
+                    card.ButtonFinalizar.Click += (s, e) =>
+                    {
+                        MySqlConnection conexaoBotao = new MySqlConnection(kamikami);
+
+                        try
+                        {
+                            conexaoBotao.Open();
+                            MySqlCommand cmdFinalizar = new MySqlCommand("UPDATE pedido SET status = 'Finalizado' WHERE id = @idPedido", conexaoBotao);
+                            cmdFinalizar.Parameters.AddWithValue("@idPedido", row["id"]);
+                            cmdFinalizar.ExecuteNonQuery();
+                            tableLayoutPanelPedidos.Controls.Remove(card);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Erro ao finalizar pedido: " + ex.Message);
+                        }
+                        finally
+                        {
+                            conexaoBotao.Close();
+                        }
+                    };
                 }
             }
             catch (Exception ex)

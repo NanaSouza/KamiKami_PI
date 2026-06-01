@@ -28,5 +28,8 @@ namespace PojetoKamiTestes
             get => labelValor.Text;
             set => labelValor.Text = value;
         }
+        public DataGridView DataGridViewItensPedido => dataGridViewItensPedido;
+
+        public Button ButtonFinalizar => buttonFinalizar;
     }
 }
